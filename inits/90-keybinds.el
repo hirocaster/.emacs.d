@@ -9,3 +9,12 @@
 (define-key global-map (kbd "C-x ?") 'help-command)
 (define-key global-map (kbd "C-t") 'other-window)
 (define-key global-map (kbd "C-u") 'align-regexp)
+
+;; helm
+(global-set-key (kbd "C-c h") 'helm-mini)
+(define-key global-map (kbd "M-x")     'helm-M-x)
+(define-key global-map (kbd "C-x C-f") 'helm-find-files)
+(define-key global-map (kbd "C-x C-r") 'helm-recentf)
+(define-key global-map (kbd "M-y")     'helm-show-kill-ring)
+(define-key global-map (kbd "C-c i")   'helm-imenu)
+(define-key global-map (kbd "C-x b")   'helm-buffers-list)

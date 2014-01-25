@@ -24,4 +24,8 @@
  (markdown-mode status "installed" recipe
                 (:name markdown-mode :description "Major mode to edit Markdown files in Emacs" :website "http://jblevins.org/projects/markdown-mode/" :type git :url "git://jblevins.org/git/markdown-mode.git" :before
                        (add-to-list 'auto-mode-alist
-                                    '("\\.\\(md\\|mdown\\|markdown\\)\\'" . markdown-mode)))))
+                                    '("\\.\\(md\\|mdown\\|markdown\\)\\'" . markdown-mode))))
+ (php-mode status "installed" recipe
+           (:name php-mode :description "A PHP mode for GNU Emacs " :type github :pkgname "ejmr/php-mode" :website "https://github.com/ejmr/php-mode"))
+ (yaml-mode status "installed" recipe
+            (:name yaml-mode :description "Simple major mode to edit YAML file for emacs" :type github :pkgname "yoshiki/yaml-mode")))

@@ -27,5 +27,11 @@
                                     '("\\.\\(md\\|mdown\\|markdown\\)\\'" . markdown-mode))))
  (php-mode status "installed" recipe
            (:name php-mode :description "A PHP mode for GNU Emacs " :type github :pkgname "ejmr/php-mode" :website "https://github.com/ejmr/php-mode"))
+ (puppet-mode status "installed" recipe
+              (:name puppet-mode :description "A simple mode for editing puppet manifests" :type github :pkgname "lunaryorn/puppet-mode" :website "https://github.com/lunaryorn/puppet-mode" :prepare
+                     (progn
+                       (autoload 'puppet-mode "puppet-mode" "Major mode for editing puppet manifests" t)
+                       (add-to-list 'auto-mode-alist
+                                    '("\\.pp$" . puppet-mode)))))
  (yaml-mode status "installed" recipe
             (:name yaml-mode :description "Simple major mode to edit YAML file for emacs" :type github :pkgname "yoshiki/yaml-mode")))

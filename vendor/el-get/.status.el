@@ -43,6 +43,8 @@
                  ("make" ,(concat "EMACS=" el-get-emacs)))
                :load-path
                ("lisp")))
+ (ruby-mode status "installed" recipe
+            (:name ruby-mode :builtin "24" :type http :description "Major mode for editing Ruby files." :url "http://bugs.ruby-lang.org/projects/ruby-trunk/repository/raw/misc/ruby-mode.el"))
  (undo-tree status "installed" recipe
             (:name undo-tree :description "Treat undo history as a tree" :website "http://www.dr-qubit.org/emacs.php" :type git :url "http://www.dr-qubit.org/git/undo-tree.git/"))
  (yaml-mode status "installed" recipe

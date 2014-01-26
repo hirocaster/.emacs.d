@@ -4,6 +4,8 @@
                         (:name auto-highlight-symbol :type github :pkgname "emacsmirror/auto-highlight-symbol" :description "Automatic highlighting current symbol minor mode" :website "https://github.com/emacsmirror/auto-highlight-symbol/"))
  (cl-lib status "installed" recipe
          (:name cl-lib :builtin "24.3" :type elpa :description "Properly prefixed CL functions and macros" :url "http://elpa.gnu.org/packages/cl-lib.html"))
+ (dash status "installed" recipe
+       (:name dash :description "A modern list api for Emacs. No 'cl required." :type github :pkgname "magnars/dash.el"))
  (dmacro status "installed" recipe
          (:name dmacro :type http :website "http://www.pitecan.com/DynamicMacro/" :description "detect repeatable operation and repeat it" :url "http://www.pitecan.com/papers/JSSSTDmacro/dmacro.el"))
  (el-get status "installed" recipe
@@ -49,6 +51,8 @@
                ("lisp")))
  (ruby-mode status "installed" recipe
             (:name ruby-mode :builtin "24" :type http :description "Major mode for editing Ruby files." :url "http://bugs.ruby-lang.org/projects/ruby-trunk/repository/raw/misc/ruby-mode.el"))
+ (smartparens status "installed" recipe
+              (:name smartparens :description "Autoinsert pairs of defined brackets and wrap regions" :type github :pkgname "Fuco1/smartparens" :depends dash))
  (undo-tree status "installed" recipe
             (:name undo-tree :description "Treat undo history as a tree" :website "http://www.dr-qubit.org/emacs.php" :type git :url "http://www.dr-qubit.org/git/undo-tree.git/"))
  (yaml-mode status "installed" recipe

@@ -30,6 +30,9 @@
             (:name git-modes :description "GNU Emacs modes for various Git-related files" :type github :pkgname "magit/git-modes"))
  (helm status "installed" recipe
        (:name helm :description "Emacs incremental and narrowing framework" :type github :pkgname "emacs-helm/helm" :compile nil :features helm-config))
+ (helm-c-yasnippet status "installed" recipe
+                   (:name helm-c-yasnippet :type github :pkgname "emacs-helm/helm-c-yasnippet" :description "Helm source for yasnippet.el." :features helm-c-yasnippet :depends
+                          (helm yasnippet)))
  (magit status "installed" recipe
         (:name magit :website "https://github.com/magit/magit#readme" :description "It's Magit! An Emacs mode for Git." :type github :pkgname "magit/magit" :depends
                (cl-lib git-modes)

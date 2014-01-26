@@ -19,6 +19,9 @@
 (define-key global-map (kbd "C-c i")   'helm-imenu)
 (define-key global-map (kbd "C-x b")   'helm-buffers-list)
 
+;; helm-c-yas-complete
+(global-set-key (kbd "C-c y") 'helm-c-yas-complete)
+
 ;; expand-region
 (global-set-key (kbd "C-=") 'er/expand-region)
 

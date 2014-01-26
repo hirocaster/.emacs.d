@@ -38,6 +38,8 @@
                 (:name markdown-mode :description "Major mode to edit Markdown files in Emacs" :website "http://jblevins.org/projects/markdown-mode/" :type git :url "git://jblevins.org/git/markdown-mode.git" :before
                        (add-to-list 'auto-mode-alist
                                     '("\\.\\(md\\|mdown\\|markdown\\)\\'" . markdown-mode))))
+ (pbcopy status "installed" recipe
+         (:name pbcopy :description "An interface to OSX's pbcopy utility" :type github :pkgname "jkp/pbcopy.el" :features "pbcopy"))
  (php-mode status "installed" recipe
            (:name php-mode :description "A PHP mode for GNU Emacs " :type github :pkgname "ejmr/php-mode" :website "https://github.com/ejmr/php-mode"))
  (puppet-mode status "installed" recipe

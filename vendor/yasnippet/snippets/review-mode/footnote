@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: footnote
+# key: foot
+# --
+//footnote[$0][$1]

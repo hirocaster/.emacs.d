@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: footnote tag
+# key: fn
+# --
+@<fn>{$0}

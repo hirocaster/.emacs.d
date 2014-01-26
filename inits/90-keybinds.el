@@ -32,3 +32,7 @@
 (define-key motion-mode-map (kbd "C-c C-c") 'motion-execute-rake)
 (define-key motion-mode-map (kbd "C-c C-d") 'motion-dash-at-point)
 (define-key motion-mode-map (kbd "C-c C-p") 'motion-convert-code-region)
+
+;; git-gutter.el
+(global-set-key (kbd "C-x C-g") 'git-gutter:toggle)
+(global-set-key (kbd "C-x v =") 'git-gutter:popup-diff)

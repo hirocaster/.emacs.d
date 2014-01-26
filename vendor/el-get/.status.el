@@ -1,5 +1,7 @@
 ((cl-lib status "installed" recipe
          (:name cl-lib :builtin "24.3" :type elpa :description "Properly prefixed CL functions and macros" :url "http://elpa.gnu.org/packages/cl-lib.html"))
+ (dmacro status "installed" recipe
+         (:name dmacro :type http :website "http://www.pitecan.com/DynamicMacro/" :description "detect repeatable operation and repeat it" :url "http://www.pitecan.com/papers/JSSSTDmacro/dmacro.el"))
  (el-get status "installed" recipe
          (:name el-get :website "https://github.com/dimitri/el-get#readme" :description "Manage the external elisp bits and pieces you depend upon." :type github :branch "master" :pkgname "dimitri/el-get" :info "." :load "el-get.el"))
  (expand-region status "installed" recipe

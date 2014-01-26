@@ -100,6 +100,11 @@
                  ("make" ,(concat "EMACS=" el-get-emacs)))
                :load-path
                ("lisp")))
+ (robe-mode status "installed" recipe
+            (:name robe-mode :type github :description "Code navigation, documentation lookup and completion for Ruby" :pkgname "dgutov/robe" :website "https://github.com/dgutov/robe" :depends
+                   (inf-ruby)
+                   :post-init
+                   (add-hook 'ruby-mode-hook 'robe-mode)))
  (ruby-mode status "installed" recipe
             (:name ruby-mode :builtin "24" :type http :description "Major mode for editing Ruby files." :url "http://bugs.ruby-lang.org/projects/ruby-trunk/repository/raw/misc/ruby-mode.el"))
  (smartparens status "installed" recipe

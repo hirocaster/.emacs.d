@@ -8,6 +8,8 @@
        (:name dash :description "A modern list api for Emacs. No 'cl required." :type github :pkgname "magnars/dash.el"))
  (dmacro status "installed" recipe
          (:name dmacro :type http :website "http://www.pitecan.com/DynamicMacro/" :description "detect repeatable operation and repeat it" :url "http://www.pitecan.com/papers/JSSSTDmacro/dmacro.el"))
+ (edit-server status "installed" recipe
+              (:name edit-server :description "Emacs edit-server. This provides an edit server to respond to requests from the Chrome Emacs Chrome plugin." :type http :url "http://github.com/stsquad/emacs_chrome/raw/master/servers/edit-server.el"))
  (el-get status "installed" recipe
          (:name el-get :website "https://github.com/dimitri/el-get#readme" :description "Manage the external elisp bits and pieces you depend upon." :type github :branch "master" :pkgname "dimitri/el-get" :info "." :load "el-get.el"))
  (expand-region status "installed" recipe

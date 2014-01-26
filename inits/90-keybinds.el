@@ -24,3 +24,8 @@
 
 ;; magit
 (global-set-key (kbd "C-x g") 'magit-status)
+
+;; motion-mode
+(define-key motion-mode-map (kbd "C-c C-c") 'motion-execute-rake)
+(define-key motion-mode-map (kbd "C-c C-d") 'motion-dash-at-point)
+(define-key motion-mode-map (kbd "C-c C-p") 'motion-convert-code-region)

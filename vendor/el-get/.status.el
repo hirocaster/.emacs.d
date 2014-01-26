@@ -44,6 +44,8 @@
                                     '("\\.\\(md\\|mdown\\|markdown\\)\\'" . markdown-mode))))
  (moccur-edit status "installed" recipe
               (:name moccur-edit :auto-generated t :type emacswiki :description "apply replaces to multiple files" :website "https://raw.github.com/emacsmirror/emacswiki.org/master/moccur-edit.el"))
+ (motion-mode status "installed" recipe
+              (:name motion-mode :type github :website "https://github.com/ainame/motion-mode" :branch "master" :description "Major mode for RubyMotion." :pkgname "ainame/motion-mode"))
  (pbcopy status "installed" recipe
          (:name pbcopy :description "An interface to OSX's pbcopy utility" :type github :pkgname "jkp/pbcopy.el" :features "pbcopy"))
  (php-mode status "installed" recipe

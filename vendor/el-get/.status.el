@@ -63,6 +63,10 @@
                        (autoload 'puppet-mode "puppet-mode" "Major mode for editing puppet manifests" t)
                        (add-to-list 'auto-mode-alist
                                     '("\\.pp$" . puppet-mode)))))
+ (review-mode status "installed" recipe
+              (:name review-mode :type github :pkgname "kmuto/review-el" :after
+                     (progn
+                       (require 'review-mode))))
  (riece status "installed" recipe
         (:name riece :type http-tar :options
                ("xzf")

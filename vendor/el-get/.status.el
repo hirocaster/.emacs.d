@@ -4,6 +4,10 @@
      (:name ag :description "A simple ag frontend, loosely based on ack-and-half.el." :type github :pkgname "Wilfred/ag.el"))
  (apache-mode status "installed" recipe
               (:name apache-mode :description "Major mode for editing Apache configuration files" :type github :pkgname "emacsmirror/apache-mode"))
+ (auto-async-byte-compile status "installed" recipe
+                          (:name auto-async-byte-compile :description "Automatically byte-compile when saved" :website "http://www.emacswiki.org/emacs/AutoAsyncByteCompile" :type emacswiki :post-init
+                                 (add-hook 'emacs-lisp-mode-hook 'enable-auto-async-byte-compile-mode)
+                                 :features "auto-async-byte-compile"))
  (auto-complete status "installed" recipe
                 (:name auto-complete :website "https://github.com/auto-complete/auto-complete" :description "The most intelligent auto-completion extension." :type github :pkgname "auto-complete/auto-complete" :depends
                        (popup fuzzy)))

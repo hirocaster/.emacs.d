@@ -43,5 +43,7 @@
                  ("make" ,(concat "EMACS=" el-get-emacs)))
                :load-path
                ("lisp")))
+ (undo-tree status "installed" recipe
+            (:name undo-tree :description "Treat undo history as a tree" :website "http://www.dr-qubit.org/emacs.php" :type git :url "http://www.dr-qubit.org/git/undo-tree.git/"))
  (yaml-mode status "installed" recipe
             (:name yaml-mode :description "Simple major mode to edit YAML file for emacs" :type github :pkgname "yoshiki/yaml-mode")))

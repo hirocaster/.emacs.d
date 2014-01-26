@@ -35,5 +35,13 @@
                        (autoload 'puppet-mode "puppet-mode" "Major mode for editing puppet manifests" t)
                        (add-to-list 'auto-mode-alist
                                     '("\\.pp$" . puppet-mode)))))
+ (riece status "installed" recipe
+        (:name riece :type http-tar :options
+               ("xzf")
+               :description "IRC client" :url "http://dl.sv.gnu.org/releases/riece/riece-8.0.0.tar.gz" :build
+               `(("./configure")
+                 ("make" ,(concat "EMACS=" el-get-emacs)))
+               :load-path
+               ("lisp")))
  (yaml-mode status "installed" recipe
             (:name yaml-mode :description "Simple major mode to edit YAML file for emacs" :type github :pkgname "yoshiki/yaml-mode")))

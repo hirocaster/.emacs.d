@@ -11,6 +11,8 @@
 (global-auto-complete-mode t)
 (ac-flyspell-workaround)
 
+(setq ac-comphist-file "~/Dropbox/.emacs.d/cache/auto-complete/ac-comphist.dat")
+
 (setq-default ac-sources (append '(ac-source-yasnippet ; yasnippetを追加
                                    ) ac-sources))
 

@@ -36,3 +36,14 @@
     '((candidates . my-ac-look)
       (requires . 2)))  ;; 2文字以上ある場合にのみ対応させる
   (global-set-key (kbd "M-h") 'ac-complete-look))
+
+;; 自動的にauto-complete.elが有効になるモードを登録
+(when (boundp 'ac-modes)
+  (setq ac-modes
+        (append ac-modes
+                (list 'php-mode
+                      'puppet-mode
+                      'ruby-mode
+                      'review-mode))))
+
+(add-hook ‘ruby-mode-hook (lambda () (add-to-list ‘ac-sources ‘ac-source-abbrev))

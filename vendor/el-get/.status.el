@@ -4,6 +4,9 @@
                         (:name auto-highlight-symbol :type github :pkgname "emacsmirror/auto-highlight-symbol" :description "Automatic highlighting current symbol minor mode" :website "https://github.com/emacsmirror/auto-highlight-symbol/"))
  (cl-lib status "installed" recipe
          (:name cl-lib :builtin "24.3" :type elpa :description "Properly prefixed CL functions and macros" :url "http://elpa.gnu.org/packages/cl-lib.html"))
+ (copyedit-ja status "installed" recipe
+              (:name copyedit-ja :description "Copyediting utilities for editors" :type github :pkgname "hisashim/copyedit" :post-init
+                     (load-library "copyedit-ja")))
  (dash status "installed" recipe
        (:name dash :description "A modern list api for Emacs. No 'cl required." :type github :pkgname "magnars/dash.el"))
  (dmacro status "installed" recipe

@@ -6,6 +6,8 @@
                         (:name auto-highlight-symbol :type github :pkgname "emacsmirror/auto-highlight-symbol" :description "Automatic highlighting current symbol minor mode" :website "https://github.com/emacsmirror/auto-highlight-symbol/"))
  (cl-lib status "installed" recipe
          (:name cl-lib :builtin "24.3" :type elpa :description "Properly prefixed CL functions and macros" :url "http://elpa.gnu.org/packages/cl-lib.html"))
+ (color-moccur status "installed" recipe
+               (:name color-moccur :type http :url "http://www.bookshelf.jp/elc/color-moccur.el" :description "multi-buffer occur (grep) mode" :website "http://www.bookshelf.jp/soft/meadow_50.html"))
  (copyedit-ja status "installed" recipe
               (:name copyedit-ja :description "Copyediting utilities for editors" :type github :pkgname "hisashim/copyedit" :post-init
                      (load-library "copyedit-ja")))
@@ -40,6 +42,8 @@
                 (:name markdown-mode :description "Major mode to edit Markdown files in Emacs" :website "http://jblevins.org/projects/markdown-mode/" :type git :url "git://jblevins.org/git/markdown-mode.git" :before
                        (add-to-list 'auto-mode-alist
                                     '("\\.\\(md\\|mdown\\|markdown\\)\\'" . markdown-mode))))
+ (moccur-edit status "installed" recipe
+              (:name moccur-edit :auto-generated t :type emacswiki :description "apply replaces to multiple files" :website "https://raw.github.com/emacsmirror/emacswiki.org/master/moccur-edit.el"))
  (pbcopy status "installed" recipe
          (:name pbcopy :description "An interface to OSX's pbcopy utility" :type github :pkgname "jkp/pbcopy.el" :features "pbcopy"))
  (php-mode status "installed" recipe

@@ -1,7 +1,11 @@
-(global-whitespace-mode 1)
 (setq-default show-trailing-whitespace t)
+(setq whitespace-style '(face           ; faceで可視化
+                         trailing       ; 行末
+                         tabs           ; タブ
+                         ;; spaces      ; スペース
+                         empty          ; 先頭/末尾の空行
+                         ;; space-mark  ; 表示のマッピング
+                         ;; tab-mark
+                         ))
 (setq whitespace-action '(auto-cleanup))
-
-(dolist (d '(face lines space-before-tab space-mark
-             indentation empty space-after-tab newline-mark))
-    (setq whitespace-style (delq d whitespace-style)))
+(global-whitespace-mode 1)

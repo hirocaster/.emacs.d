@@ -3,3 +3,4 @@ vendor/el-get/
 !vendor/el-get/recipes/
 saved-places
 tramp
+eshell/

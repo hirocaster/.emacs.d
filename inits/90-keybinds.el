@@ -10,6 +10,12 @@
 (define-key global-map (kbd "C-t") 'other-window)
 (define-key global-map (kbd "C-u") 'align-regexp)
 
+(defun backward-kill-line (arg)
+  "Kill chars backward until encountering the end of a line."
+  (interactive "p")
+  (kill-line 0))
+(define-key global-map (kbd "C-M-k") 'backward-kill-line) ;; カーソル位置から行頭まで削除する
+
 ;; helm
 (global-set-key (kbd "C-c h") 'helm-mini)
 (define-key global-map (kbd "M-x")     'helm-M-x)

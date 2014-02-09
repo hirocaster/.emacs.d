@@ -43,6 +43,10 @@
              (:name git-gutter :description "Emacs port of GitGutter Sublime Text 2 Plugin" :website "https://github.com/syohex/emacs-git-gutter" :type github :pkgname "syohex/emacs-git-gutter"))
  (git-modes status "installed" recipe
             (:name git-modes :description "GNU Emacs modes for various Git-related files" :type github :pkgname "magit/git-modes"))
+ (hatena-markup-mode status "installed" recipe
+                     (:name hatena-markup-mode :description "Major mode for Hatena Syntax http://d.hatena.ne.jp/tarao/20130110/1357821338" :type http :url "http://gist.github.com/raw/4428666/hatena-markup-mode.el"))
+ (hatena-multi-mode status "installed" recipe
+                    (:name hatena-multi-mode :type http :depends multi-mode-util :url "http://gist.github.com/raw/4475652/hatena-multi-mode.el"))
  (helm status "installed" recipe
        (:name helm :description "Emacs incremental and narrowing framework" :type github :pkgname "emacs-helm/helm" :compile nil :features helm-config))
  (helm-c-yasnippet status "installed" recipe
@@ -74,6 +78,10 @@
               (:name moccur-edit :auto-generated t :type emacswiki :description "apply replaces to multiple files" :website "https://raw.github.com/emacsmirror/emacswiki.org/master/moccur-edit.el"))
  (motion-mode status "installed" recipe
               (:name motion-mode :type github :website "https://github.com/ainame/motion-mode" :branch "master" :description "Major mode for RubyMotion." :pkgname "ainame/motion-mode"))
+ (multi-mode status "installed" recipe
+             (:name multi-mode :website "http://www.loveshack.ukfsn.org/emacs/" :description "support for multiple major modes" :type http :url "http://www.loveshack.ukfsn.org/emacs/multi-mode.el"))
+ (multi-mode-util status "installed" recipe
+                  (:name multi-mode-util :type http :depends multi-mode :url "http://raw.github.com/tarao/multi-mode-util/master/multi-mode-util.el"))
  (nginx-mode status "installed" recipe
              (:name nginx-mode :website "https://github.com/ajc/nginx-mode" :description "major mode for editing nginx config files" :type github :pkgname "ajc/nginx-mode"))
  (pbcopy status "installed" recipe

@@ -15,6 +15,14 @@
                         (:name auto-highlight-symbol :type github :pkgname "emacsmirror/auto-highlight-symbol" :description "Automatic highlighting current symbol minor mode" :website "https://github.com/emacsmirror/auto-highlight-symbol/"))
  (cl-lib status "installed" recipe
          (:name cl-lib :builtin "24.3" :type elpa :description "Properly prefixed CL functions and macros" :url "http://elpa.gnu.org/packages/cl-lib.html"))
+ (coffee-mode status "installed" recipe
+              (:name coffee-mode :website "http://ozmm.org/posts/coffee_mode.html" :description "Emacs Major Mode for CoffeeScript" :type github :pkgname "defunkt/coffee-mode" :features coffee-mode :post-init
+                     (progn
+                       (add-to-list 'auto-mode-alist
+                                    '("\\.coffee$" . coffee-mode))
+                       (add-to-list 'auto-mode-alist
+                                    '("Cakefile" . coffee-mode))
+                       (setq coffee-js-mode 'javascript-mode))))
  (color-moccur status "installed" recipe
                (:name color-moccur :type http :url "http://www.bookshelf.jp/elc/color-moccur.el" :description "multi-buffer occur (grep) mode" :website "http://www.bookshelf.jp/soft/meadow_50.html"))
  (copyedit-ja status "installed" recipe

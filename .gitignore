@@ -4,3 +4,4 @@ vendor/el-get/
 saved-places
 tramp
 eshell/
+*.elc

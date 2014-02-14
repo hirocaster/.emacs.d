@@ -2,6 +2,8 @@
                 (:name ace-jump-mode :website "https://github.com/winterTTr/ace-jump-mode/wiki" :description "A quick cursor location minor mode for emacs" :type github :pkgname "winterTTr/ace-jump-mode" :features ace-jump-mode))
  (ag status "installed" recipe
      (:name ag :description "A simple ag frontend, loosely based on ack-and-half.el." :type github :pkgname "Wilfred/ag.el"))
+ (ansi-color status "installed" recipe
+             (:name ansi-color :description "translate ANSI escape sequences into faces" :type emacswiki :website "http://www.emacswiki.org/emacs/download/ansi-color.el"))
  (apache-mode status "installed" recipe
               (:name apache-mode :description "Major mode for editing Apache configuration files" :type github :pkgname "emacsmirror/apache-mode"))
  (auto-async-byte-compile status "installed" recipe

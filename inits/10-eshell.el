@@ -1,3 +1,9 @@
+(require 'ansi-color)
+(require 'eshell)
+(defun eshell-handle-ansi-color ()
+  (ansi-color-apply-on-region eshell-last-output-start
+                              eshell-last-output-end))
+(add-to-list 'eshell-output-filter-functions 'eshell-handle-ansi-color)
 (custom-set-variables
  '( eshell-ask-to-save-history (quote always))
  '( eshell-history-size 1000)
@@ -6,11 +12,11 @@
  '( eshell-ls-initial-args "-h")
  '( eshell-ls-use-in-dired t nil (em-ls))
  '( eshell-modules-list (quote (eshell-alias eshell-basic
-    eshell-cmpl eshell-dirs eshell-glob
-    eshell-hist eshell-ls eshell-pred
-    eshell-prompt eshell-rebind
-    eshell-script eshell-smart
-    eshell-term eshell-unix eshell-xtra)))
+                                             eshell-cmpl eshell-dirs eshell-glob
+                                             eshell-hist eshell-ls eshell-pred
+                                             eshell-prompt eshell-rebind
+                                             eshell-script eshell-smart
+                                             eshell-term eshell-unix eshell-xtra)))
  '( eshell-prefer-to-shell t nil (eshell))
  '( eshell-stringify-t nil)
  '( eshell-term-name "ansi")

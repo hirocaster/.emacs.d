@@ -1,2 +1,1 @@
-(setq auto-async-byte-compile-exclude-files-regexp "/junk/")
-(add-hook 'emacs-lisp-mode-hook 'enable-auto-async-byte-compile-mode)
+(el-get 'sync 'auto-async-byte-compile)

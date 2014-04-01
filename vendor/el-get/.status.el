@@ -51,11 +51,6 @@
                   (s dash cl-lib f pkg-info)))
  (flymake-easy status "installed" recipe
                (:name flymake-easy :type github :description "Helpers for easily building flymake checkers" :pkgname "purcell/flymake-easy" :website "http://github.com/purcell/flymake-easy"))
- (flymake-ruby status "installed" recipe
-               (:name flymake-ruby :type github :description "A flymake handler for ruby-mode files" :pkgname "purcell/flymake-ruby" :website "http://github.com/purcell/flymake-ruby" :depends
-                      (flymake-easy)
-                      :post-init
-                      (add-hook 'ruby-mode-hook 'flymake-ruby-load)))
  (fuzzy status "installed" recipe
         (:name fuzzy :website "https://github.com/auto-complete/fuzzy-el" :description "Fuzzy matching utilities for GNU Emacs" :type github :pkgname "auto-complete/fuzzy-el"))
  (git-gutter status "installed" recipe

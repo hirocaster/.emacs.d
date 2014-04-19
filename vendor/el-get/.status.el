@@ -49,8 +49,6 @@
                   '(("makeinfo" "-o" "doc/flycheck.info" "doc/flycheck.texi"))
                   :info "./doc" :depends
                   (s dash cl-lib f pkg-info)))
- (flymake-easy status "installed" recipe
-               (:name flymake-easy :type github :description "Helpers for easily building flymake checkers" :pkgname "purcell/flymake-easy" :website "http://github.com/purcell/flymake-easy"))
  (fuzzy status "installed" recipe
         (:name fuzzy :website "https://github.com/auto-complete/fuzzy-el" :description "Fuzzy matching utilities for GNU Emacs" :type github :pkgname "auto-complete/fuzzy-el"))
  (git-gutter status "installed" recipe

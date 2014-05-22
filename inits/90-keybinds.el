@@ -14,7 +14,7 @@
   "Kill chars backward until encountering the end of a line."
   (interactive "p")
   (kill-line 0))
-(define-key global-map (kbd "C-M-k") 'backward-kill-line) ;; カーソル位置から行頭まで削除する
+(define-key global-map (kbd "C-M-k") 'backward-kill-line)
 
 ;; helm
 (global-set-key (kbd "C-c h") 'helm-mini)
@@ -42,3 +42,6 @@
 ;; git-gutter.el
 (global-set-key (kbd "C-x C-g") 'git-gutter:toggle)
 (global-set-key (kbd "C-x v =") 'git-gutter:popup-diff)
+
+;; howm
+(global-set-key (kbd "C-c , ,") 'howm-menu)

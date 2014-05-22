@@ -64,6 +64,12 @@
  (helm-c-yasnippet status "installed" recipe
                    (:name helm-c-yasnippet :type github :pkgname "emacs-helm/helm-c-yasnippet" :description "Helm source for yasnippet.el." :features helm-c-yasnippet :depends
                           (helm yasnippet)))
+ (howm status "installed" recipe
+       (:name howm :website "http://howm.sourceforge.jp/" :description "Write fragmentarily and read collectively." :type http-tar :options
+              ("xzf")
+              :url "http://howm.sourceforge.jp/a/howm-1.4.1.tar.gz" :build
+              `(("./configure" ,(concat "--with-emacs=" el-get-emacs))
+                "make")))
  (inf-ruby status "installed" recipe
            (:name inf-ruby :description "Inferior Ruby Mode - ruby process in a buffer." :type github :pkgname "nonsequitur/inf-ruby"))
  (js2-mode status "installed" recipe

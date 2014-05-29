@@ -1,3 +1,6 @@
 (setq howm-menu-lang 'ja)
 (autoload 'howm-menu "howm" "Hitori Otegaru Wiki Modoki" t)
-(setq howm-directory "~/Dropbox/howm/")
+(setq howm-directory "~/Dropbox/howm/org")
+(setq howm-file-name-format "%Y/%m/%Y%m%d-%H%M%S.org")
+(add-hook 'org-mode-hook 'howm-mode)
+(setq howm-view-title-header "*")

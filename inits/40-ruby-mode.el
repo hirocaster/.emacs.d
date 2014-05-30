@@ -1,3 +1,11 @@
+(lazyload (ruby-mode) "ruby-mode"
+          (require 'motion-mode)
+          (add-hook 'ruby-mode-hook 'motion-recognize-project)
+          (add-to-list 'ac-sources 'ac-source-dictionary)
+          (define-key motion-mode-map (kbd "C-c C-c") 'motion-execute-rake)
+          (define-key motion-mode-map (kbd "C-c C-d") 'motion-dash-at-point)
+          (define-key motion-mode-map (kbd "C-c C-p") 'motion-convert-code-region))
+
 (add-to-list 'auto-mode-alist '("\\.rb\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\Rakefile\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\Capfile\\'" . ruby-mode))

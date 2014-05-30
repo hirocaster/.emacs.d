@@ -1,7 +1,0 @@
-(el-get 'sync 'edit-server)
-
-(when (locate-library "edit-server")
-  (require 'edit-server)
-  (setq edit-server-new-frame nil)
-  (edit-server-start))
-(edit-server-start)

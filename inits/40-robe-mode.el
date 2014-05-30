@@ -1,1 +1,1 @@
-(add-hook 'robe-mode-hook 'robe-ac-setup)
+(add-hook 'robe-mode-hook 'ac-robe-setup)

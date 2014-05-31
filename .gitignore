@@ -1,6 +1,3 @@
-vendor/el-get/
-!vendor/el-get/.status.el
-!vendor/el-get/recipes/
 saved-places
 tramp
 eshell/

@@ -5,3 +5,4 @@ saved-places
 tramp
 eshell/
 *.elc
+.cask/

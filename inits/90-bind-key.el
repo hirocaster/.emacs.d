@@ -45,3 +45,6 @@
 
 ;; kill-word
 (bind-key "C-w" 'kill-region-or-backward-kill-word)
+
+;; aspell
+(bind-key "C-M-$" 'ispell-complete-word)

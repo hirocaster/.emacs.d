@@ -28,8 +28,6 @@
 (depends-on "smartrep")
 (depends-on "undo-tree")
 (depends-on "yasnippet")
-(depends-on "zlc")
-
 
 (depends-on "js2-mode")
 (depends-on "markdown-mode")

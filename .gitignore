@@ -3,3 +3,4 @@ tramp
 eshell/
 *.elc
 .cask/
+projectile-bookmarks.eld

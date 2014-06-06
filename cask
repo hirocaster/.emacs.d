@@ -23,6 +23,9 @@
 (depends-on "smartparens")
 (depends-on "undo-tree")
 (depends-on "magit")
+(depends-on "exec-path-from-shell")
+(depends-on "projectile")
+(depends-on "helm-projectile")
 
 
 (depends-on "js2-mode")
@@ -39,24 +42,11 @@
 ;; (depends-on "dmacro")
 
 
-
-
-;; (depends-on "dash")
-;; (depends-on "drag-stuff")
-;; (depends-on "exec-path-from-shell")
-;; (depends-on "expand-region")
-;; (depends-on "f")
-;; (depends-on "htmlize")
-;; (depends-on "idle-highlight-mode")
 ;; (depends-on "multiple-cursors")
-;; (depends-on "nyan-mode")
-;; (depends-on "pallet")
-;; (depends-on "popwin")
+
 ;; (depends-on "prodigy")
-;; (depends-on "projectile")
-;; (depends-on "s")
+
 ;; (depends-on "smartparens")
 ;; (depends-on "smex")
 ;; (depends-on "use-package")
-;; (depends-on "web-mode")
 ;; (depends-on "yasnippet")

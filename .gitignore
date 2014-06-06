@@ -4,3 +4,4 @@ eshell/
 *.elc
 .cask/
 projectile-bookmarks.eld
+.mc-lists.el

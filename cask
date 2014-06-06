@@ -18,6 +18,7 @@
 (depends-on "auto-highlight-symbol")
 (depends-on "bind-key")
 (depends-on "expand-region")
+(depends-on "yasnippet")
 (depends-on "helm-c-yasnippet")
 (depends-on "robe")
 (depends-on "smartparens")
@@ -41,12 +42,5 @@
 
 ;; (depends-on "dmacro")
 
-
-;; (depends-on "multiple-cursors")
-
-;; (depends-on "prodigy")
-
-;; (depends-on "smartparens")
-;; (depends-on "smex")
-;; (depends-on "use-package")
-;; (depends-on "yasnippet")
+(depends-on "smartrep")
+(depends-on "multiple-cursors")

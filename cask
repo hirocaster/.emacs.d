@@ -10,6 +10,7 @@
 (depends-on "expand-region")
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
+(depends-on "flyspell-mode")
 (depends-on "git-gutter")
 (depends-on "helm")
 (depends-on "helm-c-yasnippet")

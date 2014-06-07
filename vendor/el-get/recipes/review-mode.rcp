@@ -1,5 +1,0 @@
-(:name review-mode
-       :type github
-       :pkgname "kmuto/review-el"
-       :after (progn
-                (require 'review-mode)))

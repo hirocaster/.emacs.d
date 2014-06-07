@@ -10,4 +10,4 @@
         (add-to-load-path-recompile default-directory)
         (normal-top-level-add-subdirs-to-load-path)))))
 
-;; (recursive-load-directory "~/.emacs.d/vendor")
+(recursive-load-directory "~/.emacs.d/vendor")

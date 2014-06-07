@@ -1,7 +1,7 @@
-vendor/el-get/
-!vendor/el-get/.status.el
-!vendor/el-get/recipes/
 saved-places
 tramp
 eshell/
 *.elc
+.cask/
+projectile-bookmarks.eld
+.mc-lists.el

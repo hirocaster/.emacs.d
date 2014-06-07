@@ -1,8 +1,7 @@
-(el-get 'sync 'auto-complete)
-
-(require 'auto-complete-config)
-(ac-config-default)
+(require 'auto-complete)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(ac-config-default)
+
 (setq ac-auto-start 1)        ; 補完を開始する文字数
 (setq ac-auto-show-menu 0.2)  ; メニュー表示するまでの時間（秒）
 (setq ac-menu-height 20)      ; 20行分表示
@@ -46,4 +45,5 @@
                 (list 'php-mode
                       'puppet-mode
                       'ruby-mode
-                      'review-mode))))
+                      'review-mode
+                      'motion-mode))))

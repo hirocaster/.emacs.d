@@ -1,6 +1,0 @@
-(:name copyedit-ja
-       :description "Copyediting utilities for editors"
-       :type github
-       :pkgname "hisashim/copyedit"
-       :post-init
-       (load-library "copyedit-ja"))

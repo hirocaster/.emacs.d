@@ -1,4 +1,0 @@
-(:name hatena-markup-mode
-       :description "Major mode for Hatena Syntax http://d.hatena.ne.jp/tarao/20130110/1357821338"
-       :type http
-       :url "http://gist.github.com/raw/4428666/hatena-markup-mode.el")

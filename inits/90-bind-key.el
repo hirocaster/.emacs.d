@@ -84,3 +84,8 @@
 
 ;; dictionary
 (bind-key "C-c w" 'dictionary)
+
+;; bm.el
+(bind-key "M-SPC" 'bm-toggle)
+(bind-key "M-[" 'bm-previous)
+(bind-key "M-]" 'bm-next)

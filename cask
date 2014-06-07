@@ -6,6 +6,7 @@
 (depends-on "ag")
 (depends-on "auto-complete")
 (depends-on "bind-key")
+(depends-on "bm")
 (depends-on "exec-path-from-shell")
 (depends-on "expand-region")
 (depends-on "flycheck")

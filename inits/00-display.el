@@ -21,6 +21,8 @@
 (setq require-final-newline t)
 (setq next-line-add-newlines nil)
 
+(load-theme 'manoj-dark t)
+
 ;;; 1行80文字を超えるとハイライト
 (add-hook 'ruby-mode-hook
   (lambda ()

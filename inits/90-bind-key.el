@@ -66,7 +66,7 @@
 (global-set-key (kbd "C-M-c") 'mc/edit-lines)
 (global-set-key (kbd "C-M-r") 'mc/mark-all-in-region)
 
-(global-unset-key "\C-t")
+(global-unset-key (kbd "C-t"))
 (smartrep-define-key global-map "C-t"
                      '(("C-t"      . 'mc/mark-next-like-this)
                        ("n"        . 'mc/mark-next-like-this)

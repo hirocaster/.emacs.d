@@ -87,5 +87,5 @@
 
 ;; bm.el
 (bind-key "M-SPC" 'bm-toggle)
-(bind-key "M-[" 'bm-previous)
-(bind-key "M-]" 'bm-next)
+(bind-key "M-p" 'bm-previous)
+(bind-key "M-n" 'bm-next)

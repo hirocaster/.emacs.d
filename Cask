@@ -30,6 +30,7 @@
 (depends-on "smartparens")
 (depends-on "smartrep")
 (depends-on "undo-tree")
+(depends-on "wgrep-ag")
 (depends-on "yasnippet")
 
 (depends-on "js2-mode")

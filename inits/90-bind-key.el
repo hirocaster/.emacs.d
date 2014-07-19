@@ -49,7 +49,7 @@
 (bind-key "C-M-$" 'ispell-complete-word)
 
 ;; projectile
-(bind-key "C-c h" 'helm-projectile)
+(bind-key "C-x j" 'helm-projectile)
 
 ;; multiple-cursors
 ;;

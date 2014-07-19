@@ -1,4 +1,5 @@
 (lazyload (ruby-mode) "ruby-mode"
+          (setq ruby-insert-encoding-magic-comment nil)
           (require 'motion-mode)
           (add-hook 'ruby-mode-hook 'motion-recognize-project)
           (add-to-list 'ac-sources 'ac-source-dictionary)

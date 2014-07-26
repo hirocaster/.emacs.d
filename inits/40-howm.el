@@ -4,3 +4,4 @@
 (setq howm-file-name-format "%Y/%m/%Y%m%d-%H%M%S.org")
 (add-hook 'org-mode-hook 'howm-mode)
 (setq howm-view-title-header "*")
+(setq howm-process-coding-system 'utf-8)

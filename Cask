@@ -11,6 +11,7 @@
 (depends-on "exec-path-from-shell")
 (depends-on "expand-region")
 (depends-on "flycheck")
+(depends-on "flycheck-pos-tip")
 (depends-on "flycheck-cask")
 (depends-on "flycheck-color-mode-line", :git "https://github.com/flycheck/flycheck-color-mode-line.git")(depends-on "git-gutter")
 (depends-on "helm")

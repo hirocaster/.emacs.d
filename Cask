@@ -44,3 +44,4 @@
 (depends-on "ruby-mode")
 (depends-on "scss-mode")
 (depends-on "web-mode")
+(depends-on "yaml-mode")

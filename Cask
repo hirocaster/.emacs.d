@@ -34,6 +34,7 @@
 (depends-on "wgrep-ag")
 (depends-on "yasnippet")
 
+(depends-on "coffee-mode")
 (depends-on "feature-mode")
 (depends-on "js2-mode")
 (depends-on "markdown-mode")

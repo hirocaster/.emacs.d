@@ -4,6 +4,7 @@
 
 (depends-on "ace-jump-mode")
 (depends-on "ag")
+(depends-on "anzu")
 (depends-on "auto-complete")
 (depends-on "bind-key")
 (depends-on "bm")

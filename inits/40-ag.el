@@ -1,5 +1,6 @@
 (setq ag-highlight-search t)
 
+(setq wgrep-auto-save-buffer t)
 (setq wgrep-enable-key "r")
 
 (lazyload (ag-mode) "ag-mode"

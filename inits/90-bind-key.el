@@ -57,6 +57,9 @@
 ;; projectile
 (bind-key "C-x j" 'helm-projectile)
 
+;; lispxmp
+(bind-key "C-c C-d" 'lispxmp)
+
 ;; multiple-cursors
 ;;
 ;; 使い方

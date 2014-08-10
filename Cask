@@ -21,6 +21,7 @@
 (depends-on "helm-swoop")
 (depends-on "idle-highlight-mode")
 (depends-on "init-loader")
+(depends-on "lispxmp")
 (depends-on "magit")
 (depends-on "multiple-cursors")
 (depends-on "pbcopy")

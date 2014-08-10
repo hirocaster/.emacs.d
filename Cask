@@ -24,6 +24,7 @@
 (depends-on "lispxmp")
 (depends-on "magit")
 (depends-on "multiple-cursors")
+(depends-on "paredit")
 (depends-on "pbcopy")
 (depends-on "polymode")
 (depends-on "popup")

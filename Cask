@@ -22,6 +22,7 @@
 (depends-on "init-loader")
 (depends-on "lispxmp")
 (depends-on "magit")
+(depends-on "multi-term")
 (depends-on "multiple-cursors")
 (depends-on "paredit")
 (depends-on "pbcopy")

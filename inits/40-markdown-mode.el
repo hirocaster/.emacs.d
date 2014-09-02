@@ -17,3 +17,5 @@
      (format "open -a /Applications/Marked.app %s"
              (shell-quote-argument (buffer-file-name)))))
   (global-set-key "\C-cp" 'markdown-preview-file))
+
+(add-to-list 'ac-modes 'markdown-mode)

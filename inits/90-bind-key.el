@@ -98,3 +98,9 @@
 (bind-key "M-SPC" 'bm-toggle)
 (bind-key "M-p" 'bm-previous)
 (bind-key "M-n" 'bm-next)
+
+;; helm-etags-plus
+(global-set-key "\M-." 'helm-etags+-select)
+(global-set-key "\M-*" 'helm-etags+-history)
+(global-set-key "\M-," 'helm-etags+-history-action-go-back)
+(global-set-key "\M-/" 'helm-etags+-history-action-go-forward)

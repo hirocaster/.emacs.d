@@ -2,7 +2,7 @@
 (source melpa)
 (source marmalade)
 
-(depends-on "ac-mozc" :git "https://github.com/igjit/ac-mozc.git")
+(depends-on "ac-ispell")
 (depends-on "ace-jump-mode")
 (depends-on "ag")
 (depends-on "anzu")

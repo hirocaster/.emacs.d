@@ -46,4 +46,7 @@
                       'puppet-mode
                       'ruby-mode
                       'review-mode
-                      'motion-mode))))
+                      'motion-mode
+                      'org-mode
+                      'markdown-mode
+                      'git-commit-mode))))

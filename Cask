@@ -15,6 +15,7 @@
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
 (depends-on "flycheck-pos-tip")
+(depends-on "git-gutter")
 (depends-on "helm")
 (depends-on "helm-c-yasnippet")
 (depends-on "helm-etags-plus" :git "https://github.com/jixiuf/helm-etags-plus.git")

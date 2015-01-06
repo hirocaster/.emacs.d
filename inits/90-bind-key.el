@@ -17,6 +17,11 @@
   (kill-line 0))
 (define-key global-map (kbd "C-M-k") 'backward-kill-line)
 
+;; Mac
+(setq mac-command-key-is-meta nil)
+(setq mac-option-modifier 'meta)
+(setq mac-command-modifier 'super)
+
 ;; helm
 (global-set-key (kbd "C-c h") 'helm-mini)
 (define-key global-map (kbd "M-x")     'helm-M-x)

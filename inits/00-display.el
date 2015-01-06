@@ -34,3 +34,11 @@
   (lambda ()
     (font-lock-add-keywords nil
       '(("^[^\n]\\{80\\}\\(.*\\)$" 1 font-lock-warning-face t)))))
+
+;; Mac Font
+(set-face-attribute 'default nil
+                    :family "Ricty"
+                    :height 180)
+(set-fontset-font
+ nil 'japanese-jisx0208
+ (font-spec :family "Ricty"))

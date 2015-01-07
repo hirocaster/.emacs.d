@@ -23,6 +23,7 @@
 (depends-on "helm-swoop")
 (depends-on "idle-highlight-mode")
 (depends-on "init-loader")
+(depends-on "js2-mode" :git "https://github.com/mooz/js2-mode.git")
 (depends-on "lispxmp")
 (depends-on "magit")
 (depends-on "multi-term")

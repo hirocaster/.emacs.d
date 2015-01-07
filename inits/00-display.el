@@ -1,5 +1,6 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
+(scroll-bar-mode -1)
 (set-language-environment "Japanese")
 (set-default-coding-systems 'utf-8)
 (setq user-full-name "Hiroki Ohtsuka a.k.a hirocaster")

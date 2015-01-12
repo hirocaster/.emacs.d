@@ -3,6 +3,8 @@
 (scroll-bar-mode -1)
 (set-language-environment "Japanese")
 (set-default-coding-systems 'utf-8)
+(setenv "LANG" "ja_JP.UTF-8")
+(setq locale-coding-system 'utf-8)
 (setq user-full-name "Hiroki Ohtsuka a.k.a hirocaster")
 (setq user-mail-address "hohtsuka@gmail.com")
 (global-font-lock-mode t)

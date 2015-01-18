@@ -5,3 +5,5 @@
 (add-hook 'org-mode-hook 'howm-mode)
 (setq howm-view-title-header "*")
 (setq howm-process-coding-system 'utf-8)
+(setq howm-keyword-file "~/Dropbox/howm/.howm-keys")
+(setq howm-menu-file "~/Dropbox/howm/menu.txt")

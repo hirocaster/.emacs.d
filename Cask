@@ -21,6 +21,7 @@
 (depends-on "git-gutter")
 (depends-on "helm-c-yasnippet")
 (depends-on "helm-etags-plus" :git "https://github.com/jixiuf/helm-etags-plus.git")
+(depends-on "helm-ghq")
 (depends-on "helm-ls-git")
 (depends-on "helm-swoop")
 (depends-on "idle-highlight-mode")

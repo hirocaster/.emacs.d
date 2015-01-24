@@ -42,6 +42,7 @@
 (depends-on "undo-tree")
 (depends-on "wgrep-ag")
 (depends-on "yasnippet")
+(depends-on "zop-to-char")
 
 (depends-on "coffee-mode")
 (depends-on "feature-mode")

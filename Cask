@@ -46,6 +46,7 @@
 
 (depends-on "coffee-mode")
 (depends-on "feature-mode")
+(depends-on "go-mode")
 (depends-on "js2-mode")
 (depends-on "markdown-mode")
 (depends-on "motion-mode")

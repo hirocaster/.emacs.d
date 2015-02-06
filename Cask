@@ -32,7 +32,6 @@
 (depends-on "multiple-cursors")
 (depends-on "paredit")
 (depends-on "pbcopy")
-(depends-on "polymode")
 (depends-on "popup")
 (depends-on "popwin")
 (depends-on "recentf-ext")

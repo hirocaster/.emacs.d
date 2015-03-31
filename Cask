@@ -44,6 +44,7 @@
 (depends-on "zop-to-char")
 
 (depends-on "coffee-mode")
+(depends-on "json-mode")
 (depends-on "feature-mode")
 (depends-on "go-mode")
 (depends-on "js2-mode")

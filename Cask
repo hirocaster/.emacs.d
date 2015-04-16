@@ -39,7 +39,7 @@
 (depends-on "smartparens")
 (depends-on "smartrep")
 (depends-on "undo-tree")
-(depends-on "wgrep-ag")
+(depends-on "wgrep")
 (depends-on "yasnippet")
 (depends-on "zop-to-char")
 

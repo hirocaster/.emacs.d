@@ -34,6 +34,7 @@
 (depends-on "pbcopy")
 (depends-on "popup")
 (depends-on "popwin")
+(depends-on "rbenv")
 (depends-on "recentf-ext")
 (depends-on "robe")
 (depends-on "smartparens")

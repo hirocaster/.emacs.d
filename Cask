@@ -57,6 +57,7 @@
 (depends-on "rspec-mode")
 (depends-on "ruby-mode")
 (depends-on "scss-mode")
+(depends-on "terraform-mode")
 (depends-on "web-mode")
 (depends-on "yaml-mode")
 

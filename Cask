@@ -31,6 +31,7 @@
 (depends-on "multi-term")
 (depends-on "multiple-cursors")
 (depends-on "paredit")
+(depends-on "projectile")
 (depends-on "pbcopy")
 (depends-on "popup")
 (depends-on "popwin")

@@ -44,6 +44,7 @@
 (depends-on "wgrep")
 (depends-on "yasnippet")
 (depends-on "zop-to-char")
+(depends-on "json-reformat")
 
 (depends-on "coffee-mode")
 (depends-on "feature-mode")

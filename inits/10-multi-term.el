@@ -1,4 +1,4 @@
 (add-hook 'term-mode-hook '(lambda ()
                              (setq show-trailing-whitespace nil)
-                             (define-key term-raw-map (kbd "\C-z") 'term-send-raw)
-                             (define-key term-raw-map (kbd "\C-c") 'term-send-raw))))
+                             (add-to-list 'term-unbind-key-list '"C-t")
+                             (define-key term-raw-map (kbd "\C-z") 'term-send-raw))))

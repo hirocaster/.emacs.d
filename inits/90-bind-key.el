@@ -82,9 +82,9 @@
 (global-set-key (kbd "C-M-c") 'mc/edit-lines)
 (global-set-key (kbd "C-M-r") 'mc/mark-all-in-region)
 
-(global-unset-key (kbd "C-t"))
-(smartrep-define-key global-map "C-t"
-                     '(("C-t"      . 'mc/mark-next-like-this)
+(global-unset-key (kbd "C--"))
+(smartrep-define-key global-map "C--"
+                     '(("C--"      . 'mc/mark-next-like-this)
                        ("n"        . 'mc/mark-next-like-this)
                        ("p"        . 'mc/mark-previous-like-this)
                        ("m"        . 'mc/mark-more-like-this-extended)
@@ -119,3 +119,12 @@
 
 ;; zop-up-to-char
 (global-set-key (kbd "M-z") 'zop-up-to-char)
+
+;;; multi-term
+(global-set-key (kbd "C-c t") '(lambda ()
+                                 (interactive)
+                                 (if (get-buffer "*terminal<1>*")
+                                     (switch-to-buffer "*terminal<1>*")
+                                   (multi-term))))
+(global-set-key (kbd "C-c n") 'multi-term-next)
+(global-set-key (kbd "C-c p") 'multi-term-prev)

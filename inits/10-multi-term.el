@@ -17,8 +17,6 @@
                              (add-to-list 'term-unbind-key-list '"C-a")
                              (add-to-list 'term-unbind-key-list '"C-p")
                              (add-to-list 'term-unbind-key-list '"C-n")
-                             (add-to-list 'term-unbind-key-list '"C-f")
-                             (add-to-list 'term-unbind-key-list '"C-b")
                              (add-to-list 'term-unbind-key-list '"C-w")
                              (define-key term-raw-map (kbd "C-a") 'term-send-bol)
                              (define-key term-raw-map (kbd "C-y") 'term-paste)

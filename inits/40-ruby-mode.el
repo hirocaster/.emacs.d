@@ -2,7 +2,10 @@
           (setq ruby-insert-encoding-magic-comment nil)
           (require 'motion-mode)
           (add-hook 'ruby-mode-hook 'motion-recognize-project)
+
+          (setq enh-ruby-add-encoding-comment-on-save nil)
           (add-hook 'ruby-mode-hook 'enh-ruby-mode)
+
           (add-to-list 'ac-sources 'ac-source-dictionary)
           (define-key motion-mode-map (kbd "C-c C-c") 'motion-execute-rake)
           (define-key motion-mode-map (kbd "C-c C-d") 'motion-dash-at-point)

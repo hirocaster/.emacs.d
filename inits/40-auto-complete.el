@@ -45,6 +45,7 @@
                 (list 'php-mode
                       'puppet-mode
                       'ruby-mode
+                      'enh-ruby-mode
                       'review-mode
                       'motion-mode
                       'org-mode

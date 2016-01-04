@@ -4,3 +4,4 @@
 (cask-initialize)
 
 (init-loader-load "~/.emacs.d/inits")
+(init-loader-load "~/.emacs.d/secrets")

@@ -1,3 +1,6 @@
 [submodule "vendor/yasnippet-snippets"]
 	path = vendor/yasnippet-snippets
 	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+[submodule "secrets"]
+	path = secrets
+	url = git@bitbucket.org:hirocaster/secrets.git

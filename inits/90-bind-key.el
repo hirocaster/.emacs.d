@@ -2,7 +2,7 @@
 
 (global-set-key (kbd "C-m") 'newline-and-indent)
 (global-set-key "\C-h" 'delete-backward-char)
-(global-set-key (kbd "M-SPC") 'just-one-space)
+(global-set-key (kbd "M-SPC") 'cycle-spacing)
 
 (keyboard-translate ?\C-h ?\C-?) ;; backspace
 (keyboard-translate ?\C-? ?\C-h) ;; Help

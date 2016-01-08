@@ -6,6 +6,7 @@
 (depends-on "bind-key")
 (depends-on "helm")
 
+(depends-on "auto-highlight-symbol")
 (depends-on "ac-ispell")
 (depends-on "ace-jump-mode")
 (depends-on "ag")
@@ -25,7 +26,6 @@
 (depends-on "helm-ghq")
 (depends-on "helm-ls-git")
 (depends-on "helm-swoop")
-(depends-on "idle-highlight-mode")
 (depends-on "js2-mode" :git "https://github.com/mooz/js2-mode.git")
 (depends-on "json-reformat")
 (depends-on "lispxmp")

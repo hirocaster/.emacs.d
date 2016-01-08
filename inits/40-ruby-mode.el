@@ -1,6 +1,8 @@
 (lazyload (ruby-mode) "ruby-mode"
           (setq ruby-insert-encoding-magic-comment nil)
 
+          (add-hook 'enh-ruby-mode-hook 'auto-highlight-symbol-mode)
+
           (setq enh-ruby-add-encoding-comment-on-save nil)
           (add-hook 'ruby-mode-hook 'enh-ruby-mode)
 

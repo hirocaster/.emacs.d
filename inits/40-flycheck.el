@@ -11,4 +11,11 @@
 (add-hook 'ruby-mode-hook
           '(lambda ()
              (setq flycheck-checker 'ruby-rubocop)
+             (setq flycheck-disabled-checkers '(ruby-rubylint))
+             (flycheck-mode 1)))
+
+(add-hook 'enh-ruby-mode-hook
+          '(lambda ()
+             (setq flycheck-checker 'ruby-rubocop)
+             (setq flycheck-disabled-checkers '(ruby-rubylint))
              (flycheck-mode 1)))

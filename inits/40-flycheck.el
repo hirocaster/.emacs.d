@@ -1,12 +1,14 @@
-(require 'flycheck)
-
-(add-hook 'after-init-hook #'global-flycheck-mode)
-
-(setq flycheck-checkers (delq 'emacs-lisp-checkdoc flycheck-checkers))
+(with-eval-after-load 'flycheck
+  (flycheck-pos-tip-mode))
 
 (eval-after-load 'flycheck
-    '(custom-set-variables
-         '(flycheck-display-errors-function #'flycheck-pos-tip-error-messages)))
+  '(add-hook 'flycheck-mode-hook #'flycheck-cask-setup))
+
+(require 'flycheck)
+
+(global-flycheck-mode)
+
+(setq flycheck-checkers (delq 'emacs-lisp-checkdoc flycheck-checkers))
 
 (add-hook 'ruby-mode-hook
           '(lambda ()

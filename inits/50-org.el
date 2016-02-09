@@ -1,7 +1,7 @@
 (add-to-list 'ac-modes 'org-mode)
 
 ;; Set to the location of your Org files on your local system
-(setq org-directory "~/Dropbox/org/notes")
+(setq org-directory "~/Dropbox/org")
 
 ;; Set to the name of the file where new notes will be stored
 (setq org-mobile-inbox-for-pull "~/Dropbox/org/flagged.org")
@@ -14,3 +14,9 @@
 (add-hook 'org-mode-hook 'turn-on-font-lock)
 
 (setq org-src-fontify-natively t)
+
+(setq org-capture-templates
+      '(("t" "Todo" entry (file+headline "~/Dropbox/org/gtd.org" "Tasks")
+         "* TODO %?\n  %i\n  %a")
+        ("j" "Journal" entry (file+datetree "~/Dropbox/org/journal.org")
+         "* %?\nEntered on %U\n  %i\n  %a")))

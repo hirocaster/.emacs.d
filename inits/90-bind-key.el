@@ -128,3 +128,7 @@
                                    (multi-term))))
 (global-set-key (kbd "C-c n") 'multi-term-next)
 (global-set-key (kbd "C-c p") 'multi-term-prev)
+
+;; ddskk
+(global-set-key (kbd "C-x C-j") 'skk-mode)
+(global-set-key (kbd "C-x j") 'skk-auto-fill-mode)

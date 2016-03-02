@@ -51,6 +51,7 @@
 (depends-on "zop-to-char")
 
 (depends-on "coffee-mode")
+(depends-on "enh-ruby-mode")
 (depends-on "feature-mode")
 (depends-on "go-mode")
 (depends-on "js2-mode")
@@ -62,9 +63,9 @@
 (depends-on "puppet-mode")
 (depends-on "rspec-mode")
 (depends-on "ruby-mode")
-(depends-on "enh-ruby-mode")
 (depends-on "scss-mode")
 (depends-on "terraform-mode")
+(depends-on "typescript-mode")
 (depends-on "web-mode")
 (depends-on "yaml-mode")
 

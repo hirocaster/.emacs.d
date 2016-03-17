@@ -8,6 +8,10 @@
 
           (add-to-list 'ac-sources 'ac-source-dictionary)
 
+          (setq robe-mode-map nil)
+          (add-hook 'enh-ruby-mode-hook 'robe-mode)
+          (add-hook 'robe-mode-hook 'ac-robe-setup)
+
           (require 'motion-mode)
           (add-hook 'ruby-mode-hook 'motion-recognize-project)
           (define-key motion-mode-map (kbd "C-c C-c") 'motion-execute-rake)

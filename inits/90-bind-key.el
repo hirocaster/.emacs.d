@@ -109,8 +109,8 @@
 ;; helm-etags-plus
 (global-set-key "\M-." 'helm-etags+-select)
 (global-set-key "\M-*" 'helm-etags+-history)
-(global-set-key "\M-," 'helm-etags+-history-action-go-back)
-(global-set-key "\M-/" 'helm-etags+-history-action-go-forward)
+(global-set-key "\M-," 'helm-etags+-history-go-back)
+(global-set-key "\M-/" 'helm-etags+-history-go-forward)
 
 ;; yasnippet
 (define-key yas-minor-mode-map (kbd "C-x i i") 'yas-insert-snippet)

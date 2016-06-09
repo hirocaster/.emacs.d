@@ -49,11 +49,13 @@
 (depends-on "undo-tree")
 (depends-on "w3m")
 (depends-on "wgrep")
+(depends-on "wgrep-ag")
 (depends-on "yaoddmuse")
 (depends-on "yasnippet")
 (depends-on "zop-to-char")
 
 (depends-on "coffee-mode")
+(depends-on "dockerfile-mode")
 (depends-on "enh-ruby-mode")
 (depends-on "feature-mode")
 (depends-on "go-mode")

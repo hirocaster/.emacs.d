@@ -1,3 +1,5 @@
+(setq org-use-speed-commands t)
+
 (add-to-list 'ac-modes 'org-mode)
 
 ;; Set to the location of your Org files on your local system

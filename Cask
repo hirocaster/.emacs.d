@@ -30,6 +30,7 @@
 (depends-on "helm-ghq")
 (depends-on "helm-ls-git")
 (depends-on "helm-swoop")
+(depends-on "init-open-recentf")
 (depends-on "js2-mode" :git "https://github.com/mooz/js2-mode.git")
 (depends-on "json-reformat")
 (depends-on "lispxmp")

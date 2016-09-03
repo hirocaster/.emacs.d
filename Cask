@@ -57,6 +57,7 @@
 
 (depends-on "coffee-mode")
 (depends-on "dockerfile-mode")
+(depends-on "elixir-mode")
 (depends-on "enh-ruby-mode")
 (depends-on "feature-mode")
 (depends-on "go-mode")

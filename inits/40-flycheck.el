@@ -5,6 +5,7 @@
   '(add-hook 'flycheck-mode-hook #'flycheck-cask-setup))
 
 (require 'flycheck)
+(require 'flycheck-elixir)
 
 (global-flycheck-mode)
 

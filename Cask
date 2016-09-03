@@ -37,6 +37,7 @@
 (depends-on "magit")
 (depends-on "multi-term")
 (depends-on "multiple-cursors")
+(depends-on "ox-gfm")
 (depends-on "paredit")
 (depends-on "pbcopy")
 (depends-on "popup")

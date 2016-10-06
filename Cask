@@ -25,7 +25,6 @@
 (depends-on "flycheck-elixir")
 (depends-on "flycheck-cask")
 (depends-on "flycheck-pos-tip")
-(depends-on "flycheck-typescript-tslint")
 (depends-on "free-keys")
 (depends-on "git-gutter")
 (depends-on "helm-c-yasnippet")

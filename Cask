@@ -17,6 +17,7 @@
 (depends-on "bm")
 (depends-on "company")
 (depends-on "ctags")
+(depends-on "dash-at-point")
 (depends-on "ddskk")
 (depends-on "elscreen")
 (depends-on "exec-path-from-shell")

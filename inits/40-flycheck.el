@@ -4,6 +4,10 @@
 (eval-after-load 'flycheck
   '(add-hook 'flycheck-mode-hook #'flycheck-cask-setup))
 
+(eval-after-load 'flycheck
+  '(flycheck-credo-setup))
+(add-hook 'elixir-mode-hook 'flycheck-mode)
+
 (require 'flycheck)
 (require 'flycheck-elixir)
 

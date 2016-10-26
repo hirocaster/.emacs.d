@@ -52,6 +52,7 @@
 (depends-on "robe")
 (depends-on "smartparens")
 (depends-on "smartrep")
+(depends-on "string-inflection")
 (depends-on "undo-tree")
 (depends-on "w3m")
 (depends-on "wgrep")

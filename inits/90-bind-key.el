@@ -132,3 +132,6 @@
 ;; ddskk
 (global-set-key (kbd "C-x C-j") 'skk-mode)
 (global-set-key (kbd "C-x j") 'skk-auto-fill-mode)
+
+;; string-inflection
+(global-set-key (kbd "C-x C-i") 'string-inflection-cycle)

@@ -70,8 +70,8 @@
 ;; multiple-cursors
 ;;
 ;; 使い方
-;;   - キーワード選択 => C-t で同じキーワードにカーソルを追加
-;;     - C-tのあと
+;;   - キーワード選択 => C-- で同じキーワードにカーソルを追加
+;;     - C--のあと
 ;;       - s スキップ
 ;;       - u もどる
 ;;       - * 全選択
@@ -135,3 +135,7 @@
 
 ;; string-inflection
 (global-set-key (kbd "C-x C-i") 'string-inflection-cycle)
+
+;; window
+(global-set-key (kbd "M-o") 'other-window)
+(windmove-default-keybindings)

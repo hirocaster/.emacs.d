@@ -3,6 +3,7 @@
 (global-set-key (kbd "C-m") 'newline-and-indent)
 (global-set-key (kbd "C-h") 'delete-backward-char)
 (global-set-key (kbd "C-?") 'help-command)
+(global-set-key (kbd "C-S-h") 'kill-whole-line)
 (global-set-key (kbd "M-SPC") 'cycle-spacing)
 
 (keyboard-translate ?\C-h ?\C-?) ;; backspace

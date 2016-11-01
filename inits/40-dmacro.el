@@ -1,3 +1,3 @@
-(defconst *dmacro-key* (kbd "C-i") "repeat key")
+(defconst *dmacro-key* (kbd "C-,") "repeat key")
 (global-set-key *dmacro-key* 'dmacro-exec)
 (autoload 'dmacro-exec "dmacro" nil t)

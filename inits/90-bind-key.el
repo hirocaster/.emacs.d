@@ -15,12 +15,6 @@
 (define-key global-map (kbd "C-x ?") 'help-command)
 (define-key global-map (kbd "C-'") 'align-regexp)
 
-(defun backward-kill-line (arg)
-  "Kill chars backward until encountering the end of a line."
-  (interactive "p")
-  (kill-line 0))
-(define-key global-map (kbd "C-M-k") 'backward-kill-line)
-
 ;; Mac
 (setq mac-command-key-is-meta nil)
 (setq mac-option-modifier 'meta)

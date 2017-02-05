@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: itamae-remote_file
+# key: remote_file
+# --
+remote_file "$0" do
+  owner $1
+  group $2
+  source "$3"
+end

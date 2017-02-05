@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: itamae-directory
+# key: directory
+# --
+directory "$0" do
+  owner $1
+  group $2
+end

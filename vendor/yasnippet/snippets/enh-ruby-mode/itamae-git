@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: itamae-git
+# key: git
+# --
+git "$0" do
+  repository "$1"
+  not_if "which $2"
+  user "$3"
+end

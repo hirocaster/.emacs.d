@@ -12,6 +12,8 @@
 (el-get-bundle bind-key)
 (el-get-bundle helm)
 
+(el-get-bundle exec-path-from-shell)
+
 (el-get-bundle ac-alchemist)
 (el-get-bundle ac-ispell)
 (el-get-bundle ace-jump-mode)

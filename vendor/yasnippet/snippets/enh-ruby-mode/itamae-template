@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: itamae-template
+# key: template
+# --
+template "$0" do
+  owner $1
+  group $2
+  source "$3"
+end

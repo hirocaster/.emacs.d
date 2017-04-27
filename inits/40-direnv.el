@@ -1,1 +1,1 @@
-(require 'direnv)
+;; (require 'direnv)

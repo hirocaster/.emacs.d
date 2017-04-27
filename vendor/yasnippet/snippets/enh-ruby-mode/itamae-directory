@@ -3,6 +3,6 @@
 # key: directory
 # --
 directory "$0" do
-  user $1
-  owner $2
+  owner $1
+  group $2
 end

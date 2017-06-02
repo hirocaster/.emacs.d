@@ -90,6 +90,7 @@
 (el-get-bundle nginx-mode)
 (el-get-bundle php-mode)
 (el-get-bundle puppet-mode)
+(el-get-bundle rjsx-mode)
 (el-get-bundle rspec-mode)
 (el-get-bundle ruby-mode)
 (el-get-bundle scss-mode)

@@ -10,7 +10,8 @@
     (eval-print-last-sexp)))
 
 (el-get-bundle bind-key)
-(el-get-bundle emacs-helm/helm :branch "v2.6.1")
+;; (el-get-bundle emacs-helm/helm :branch "v2.7.1")
+(el-get-bundle helm)
 
 (el-get-bundle exec-path-from-shell)
 

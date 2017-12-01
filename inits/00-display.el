@@ -33,3 +33,7 @@
 (set-face-attribute 'default nil
                     :family "Ricty"
                     :height 180)
+
+;; pos-tip
+(setq pos-tip-foreground-color "red")
+(setq pos-tip-background-color "blue")

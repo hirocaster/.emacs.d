@@ -9,8 +9,9 @@
     (goto-char (point-max))
     (eval-print-last-sexp)))
 
+(el-get-bundle moe-theme)
+
 (el-get-bundle bind-key)
-;; (el-get-bundle emacs-helm/helm :branch "v2.7.1")
 (el-get-bundle helm)
 
 (el-get-bundle exec-path-from-shell)

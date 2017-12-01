@@ -26,7 +26,8 @@
 (setq require-final-newline t)
 (setq next-line-add-newlines nil)
 
-(load-theme 'manoj-dark t)
+;; theme
+(load-theme 'moe-dark t)
 
 ;; Mac Font
 (set-face-attribute 'default nil

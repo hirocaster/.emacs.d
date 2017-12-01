@@ -85,6 +85,8 @@
 (el-get-bundle enh-ruby-mode)
 (el-get-bundle feature-mode)
 (el-get-bundle go-mode)
+(el-get-bundle groovy-mode
+  :url "https://raw.githubusercontent.com/Groovy-Emacs-Modes/groovy-emacs-modes/master/groovy-mode.el")
 (el-get-bundle js2-mode)
 (el-get-bundle json-mode)
 (el-get-bundle markdown-mode)

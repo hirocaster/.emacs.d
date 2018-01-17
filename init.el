@@ -86,6 +86,7 @@
 (el-get-bundle direnv
   :url "https://raw.githubusercontent.com/hirocaster/.emacs.d/master/vendor/direnv/direnv.el")
 
+(el-get-bundle w-vi/apib-mode)
 (el-get-bundle coffee-mode)
 (el-get-bundle dockerfile-mode)
 (el-get-bundle elixir-mode)

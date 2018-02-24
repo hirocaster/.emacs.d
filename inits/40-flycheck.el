@@ -11,7 +11,7 @@
 (require 'flycheck)
 (require 'flycheck-elixir)
 
-(global-flycheck-mode)
+(add-hook 'after-init-hook #'global-flycheck-mode)
 
 (setq flycheck-checkers (delq 'emacs-lisp-checkdoc flycheck-checkers))
 

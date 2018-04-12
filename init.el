@@ -49,6 +49,7 @@
 (el-get-bundle helm-ghq)
 (el-get-bundle helm-ls-git)
 (el-get-bundle helm-swoop)
+(el-get-bundle howm)
 (el-get-bundle init-open-recentf)
 (el-get-bundle jedi)
 (el-get-bundle js2-mode)

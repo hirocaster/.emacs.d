@@ -31,14 +31,3 @@
          "* %?\nEntered on %U\n  %i\n  %a")))
 
 (setq org-log-done 'time)
-
-;; http://qiita.com/takaxp/items/96629bbcc4a9403f0213
-(defun advice-org-override-variable ()
-  (setq org-plain-link-re
-        (concat "\\<" (regexp-opt org-link-types t) ":"
-                ;;(org-re "\\(//\\|/\\)[a-zA-Z0-9.:_---?/%\t]*\\>"))))
-                ;;(org-re "\\(//\\|/\\)[^][<>\t*^`\{}]*\\>"))))
-                (org-re "//?\\([a-zA-Z0-9]\\.\\|[a-zA-Z0-9---@:]\\)*/?\
-\\(%[a-fA-F0-9][a-fA-F0-9]\\|[a-zA-Z0-9---._~!$&'()*+,;=:@/?]\\)*#?\
-\\(%[a-fA-F0-9][a-fA-F0-9]\\|[a-zA-Z0-9---._~!$&'()*+,;=:@/?]\\)*"))))
-(advice-add 'org-make-link-regexps :after 'advice-org-override-variable)

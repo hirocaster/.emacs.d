@@ -21,7 +21,7 @@
 (setq howm-file-name-format "%Y/%m/%d/%Y%m%d-%H%M%S.org")
 (global-set-key "\C-x,," 'howm-menu)
 (autoload 'howm-menu "howm-mode" "Hitori Otegaqru Wiki Modoki" t)
-(setq howm-directory "~/Dropbox/howm/")
+(setq howm-directory "~/howm/")
 (setq howm-keyword-file (concat howm-home-directory ".howm-keys"))
 ;; (setq howm-menu-file (concat howm-home-directory "menu.txt"))
 (setq howm-history-file (concat howm-home-directory ".howm-history"))

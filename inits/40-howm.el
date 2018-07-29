@@ -25,3 +25,7 @@
 (setq howm-keyword-file (concat howm-home-directory ".howm-keys"))
 ;; (setq howm-menu-file (concat howm-home-directory "menu.txt"))
 (setq howm-history-file (concat howm-home-directory ".howm-history"))
+(setq howm-keyword-file (concat howm-directory ".howm-keys"))
+;; (setq howm-menu-file (concat howm-directory "menu.txt"))
+(setq howm-history-file (concat howm-directory ".howm-history"))
+

@@ -18,7 +18,7 @@
 (setq howm-view-grep-expr-option nil)
 (setq howm-view-grep-file-stdin-option nil)
 (setq howm-view-title-header "*")
-(setq howm-file-name-format "%Y/%m/%d/%Y%m%d-%H%M%S.org")
+(setq howm-file-name-format "%Y/%m/%d/%Y%m%d-%H%M%S.txt")
 (global-set-key "\C-x,," 'howm-menu)
 (autoload 'howm-menu "howm-mode" "Hitori Otegaqru Wiki Modoki" t)
 (setq howm-directory "~/howm/")

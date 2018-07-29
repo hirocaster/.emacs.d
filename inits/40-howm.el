@@ -22,10 +22,25 @@
 (global-set-key "\C-x,," 'howm-menu)
 (autoload 'howm-menu "howm-mode" "Hitori Otegaqru Wiki Modoki" t)
 (setq howm-directory "~/howm/")
-(setq howm-keyword-file (concat howm-home-directory ".howm-keys"))
-;; (setq howm-menu-file (concat howm-home-directory "menu.txt"))
-(setq howm-history-file (concat howm-home-directory ".howm-history"))
 (setq howm-keyword-file (concat howm-directory ".howm-keys"))
 ;; (setq howm-menu-file (concat howm-directory "menu.txt"))
 (setq howm-history-file (concat howm-directory ".howm-history"))
 
+(setq howm-template
+  '("* %title%cursor
+%date %file
+
+"
+    "* %date Diary of the day                                              :diary:
+
+** Thanks for x
+
+** What I did in today
+
+    %cursor
+"))
+
+(defun howm-create-diary ()
+  (interactive)
+  (howm-create 2 nil))
+(define-key global-map (concat howm-prefix "d") #'howm-create-diary)

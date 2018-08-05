@@ -43,4 +43,4 @@
 (defun howm-create-diary ()
   (interactive)
   (howm-create 2 nil))
-(define-key global-map (concat howm-prefix "d") #'howm-create-diary)
+(define-key global-map (concat howm-prefix "n") #'howm-create-diary)

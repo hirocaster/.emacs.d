@@ -51,7 +51,6 @@
 (el-get-bundle helm-swoop)
 (el-get-bundle howm)
 (el-get-bundle init-open-recentf)
-(el-get-bundle jedi)
 (el-get-bundle js2-mode)
 (el-get-bundle json-reformat)
 (el-get-bundle lispxmp)

@@ -116,3 +116,4 @@
 
 (el-get-bundle init-loader)
 (init-loader-load "~/.emacs.d/inits")
+(init-loader-load "~/.emacs.d/secrets")

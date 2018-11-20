@@ -215,8 +215,9 @@ Attachment file path as FILE-PATH."
   "Output Growi page."
   (interactive)
   (growi-create-buffer)
-  (let ((path (completing-read "Growi page ? "
-									  (growi-candidate "page"))))
+  ;; (let ((path (completing-read "Growi page ? "
+  ;;   								  (growi-candidate "page"))))
+  (let ((path (growi-helm-path "Growi page ? ")))
 	(insert (assoc-default
 			 'body (assoc 'revision
                           (assoc 'page
@@ -394,6 +395,16 @@ Attachment file path as FILE-PATH."
 			  (assoc-default 'attachments data))
 	  (message "attachment %s  has been removed." file))))
 
+(defun growi-helm-path (msg)
+  (interactive)
+  (helm :sources (helm-build-sync-source msg
+                   :candidates (mapcar (lambda (i)
+                                         (assoc-default 'path i))
+                                       (elt (assoc-default 'pages (growi-api "GET" "/pages.list")) 1))
+                   :action 'message
+                   :volatile t
+                   :migemo t)
+        :buffer "*growi-path*"))
 
 (provide 'growi)
 

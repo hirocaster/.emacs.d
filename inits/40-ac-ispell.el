@@ -1,6 +1,3 @@
-;; (custom-set-variable
-;;  '(ac-ispell-requires 4))
-
 (eval-after-load "auto-complete"
      '(progn
         (ac-ispell-setup)))

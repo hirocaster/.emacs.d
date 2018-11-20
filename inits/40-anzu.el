@@ -1,6 +1,5 @@
 (global-anzu-mode +1)
 
-(custom-set-variables
-  '(anzu-mode-lighter "")
-   '(anzu-deactivate-region t)
-   '(anzu-search-threshold 1000))
+(setq anzu-mode-lighter "")
+(setq anzu-deactivate-region t)
+(setq anzu-search-threshold 1000)

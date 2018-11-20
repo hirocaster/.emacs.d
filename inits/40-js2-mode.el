@@ -1,7 +1,5 @@
-(custom-set-variables
- '(js2-basic-offset 2)
- '(js2-bounce-indent-p t)
- )
+(setq js2-basic-offset 2)
+(setq js2-bounce-indent-p t)
 
 (lazyload (js2-mode) "js2-mode")
 

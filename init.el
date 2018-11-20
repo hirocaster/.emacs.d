@@ -58,7 +58,7 @@
 (el-get-bundle org-seek)
 (el-get-bundle ox-gfm)
 (el-get-bundle paredit)
-(el-get-bundle pbcopy)
+(el-get-bundle emacsfodder/pbcopy.el)
 (el-get-bundle popup)
 (el-get-bundle popwin)
 (el-get-bundle projectile)

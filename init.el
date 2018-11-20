@@ -103,7 +103,6 @@
 (el-get-bundle puppet-mode)
 (el-get-bundle rjsx-mode)
 (el-get-bundle rspec-mode)
-(el-get-bundle ruby-mode)
 (el-get-bundle scss-mode)
 (el-get-bundle terraform-mode)
 (el-get-bundle tide)
@@ -116,3 +115,22 @@
 (el-get-bundle init-loader)
 (init-loader-load "~/.emacs.d/inits")
 (init-loader-load "~/.emacs.d/secrets")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(anzu-deactivate-region t)
+ '(anzu-mode-lighter "")
+ '(anzu-search-threshold 1000)
+ '(js2-basic-offset 2)
+ '(js2-bounce-indent-p t)
+ '(package-selected-packages
+   (quote
+    (zop-to-char yaml-mode wgrep-ag web-mode w3m undo-tree tide terraform-mode string-inflection smartrep smartparens scss-mode rspec-mode robe rjsx-mode ripgrep recentf-ext rbenv puppet-mode projectile popwin php-mode pbcopy paredit ox-gfm org-seek nginx-mode multiple-cursors multi-term motion-mode moe-theme markdown-mode magit lispxmp json-mode init-open-recentf init-loader howm helm-swoop helm-ls-git helm-ghq helm-etags-plus helm-c-yasnippet helm-ag go-mode git-gutter free-keys flycheck-pos-tip flycheck-elixir flycheck-credo flycheck-cask feature-mode expand-region exec-path-from-shell enh-ruby-mode elscreen el-get dockerfile-mode ddskk dash-at-point coffee-mode bm bind-key auto-highlight-symbol anzu ace-jump-mode ac-ispell ac-alchemist))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

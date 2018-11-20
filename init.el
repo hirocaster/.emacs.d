@@ -15,6 +15,7 @@
 (el-get-bundle moe-theme)
 
 (el-get-bundle bind-key)
+(el-get-bundle migemo)
 (el-get-bundle helm)
 
 (el-get-bundle exec-path-from-shell)

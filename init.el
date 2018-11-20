@@ -76,7 +76,6 @@
 (el-get-bundle w3m)
 (el-get-bundle wgrep)
 (el-get-bundle wgrep-ag)
-(el-get-bundle yaoddmuse)
 (el-get-bundle yasnippet)
 (el-get-bundle zop-to-char)
 

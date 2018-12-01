@@ -96,6 +96,7 @@
 (el-get-bundle js2-mode)
 (el-get-bundle json-mode)
 (el-get-bundle markdown-mode)
+(el-get-bundle markdown-preview-mode)
 (el-get-bundle motion-mode)
 (el-get-bundle nginx-mode)
 (el-get-bundle php-mode)

@@ -9,7 +9,7 @@
     (hide-sublevels 3)))
 
 (when (eq system-type 'darwin)
-  (setq markdown-command "/opt/boxen/homebrew/bin/multimarkdown")
+  (shell-command-to-string "type multimarkdown | awk {'print $3'}")
   (defun markdown-preview-file ()
     "run Marked on the current file and revert the buffer"
     (interactive)
@@ -19,3 +19,5 @@
   (global-set-key "\C-cp" 'markdown-preview-file))
 
 (add-to-list 'ac-modes 'markdown-mode)
+
+(setq markdown-preview-stylesheets (list (locate-user-emacs-file "vendor/css/github.css")))

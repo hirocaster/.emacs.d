@@ -31,7 +31,7 @@
 
 ;; Mac Font
 (set-face-attribute 'default nil
-                    :family "Ricty"
+                    :family "Ricty Diminished"
                     :height 180)
 
 ;; pos-tip

@@ -7,3 +7,21 @@
 
 (setq skk-show-candidates-always-pop-to-buffer t) ; 変換候補の表示位置
 (setq skk-henkan-show-candidates-rows 2)          ; 候補表示件数
+
+(setq skk-japanese-message-and-error t)
+(setq skk-show-icon t)
+
+(setq skk-show-mode-show t)
+
+(setq skk-dcomp-activate t)
+(setq skk-dcomp-multiple-activate t)
+(setq skk-dcomp-multiple-rows 5)
+
+(setq skk-jisyo "~/.skk/SKK-JISYO.hirocaster")  ; 個人辞書
+(setq skk-extra-jisyo-file-list
+      (list "~/.skk/SKK-JISYO.fullname"
+            "~/.skk/SKK-JISYO.geo"
+            "~/.skk/SKK-JISYO.jinmei"
+            "~/.skk/SKK-JISYO.propernoun"
+            "~/.skk/SKK-JISYO.station"
+            "~/.skk/SKK-JISYO.zipcode"))

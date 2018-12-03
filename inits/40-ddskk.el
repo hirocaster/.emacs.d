@@ -17,11 +17,13 @@
 (setq skk-dcomp-multiple-activate t)
 (setq skk-dcomp-multiple-rows 5)
 
-(setq skk-jisyo "~/.skk/SKK-JISYO.hirocaster")  ; 個人辞書
-(setq skk-extra-jisyo-file-list
-      (list "~/.skk/SKK-JISYO.fullname"
-            "~/.skk/SKK-JISYO.geo"
-            "~/.skk/SKK-JISYO.jinmei"
-            "~/.skk/SKK-JISYO.propernoun"
-            "~/.skk/SKK-JISYO.station"
-            "~/.skk/SKK-JISYO.zipcode"))
+(setq skk-jisyo "~/.skk-jisyo")  ; 個人辞書
+
+(when (eq system-type 'gnu/linux)
+  (setq skk-extra-jisyo-file-list
+        (list "/usr/share/skk/SKK-JISYO.fullname"
+              "/usr/share/skk/SKK-JISYO.geo"
+              "/usr/share/skk/SKK-JISYO.jinmei"
+              "/usr/share/skk/SKK-JISYO.propernoun"
+              "/usr/share/skk/SKK-JISYO.station"
+              "/usr/share/skk/SKK-JISYO.zipcode")))

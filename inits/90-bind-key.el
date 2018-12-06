@@ -94,9 +94,6 @@
                        ("o"        . 'mc/sort-regions)
                        ("O"        . 'mc/reverse-regions)))
 
-;; dictionary
-(bind-key "C-c w" 'dictionary)
-
 ;; bm.el
 (bind-key "s-m" 'bm-toggle)
 (bind-key "s-p" 'bm-previous)

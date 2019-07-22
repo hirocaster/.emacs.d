@@ -94,9 +94,6 @@
                        ("o"        . 'mc/sort-regions)
                        ("O"        . 'mc/reverse-regions)))
 
-;; dictionary
-(bind-key "C-c w" 'dictionary)
-
 ;; bm.el
 (bind-key "s-m" 'bm-toggle)
 (bind-key "s-p" 'bm-previous)
@@ -122,8 +119,6 @@
                                  (if (get-buffer "*terminal<1>*")
                                      (switch-to-buffer "*terminal<1>*")
                                    (multi-term))))
-(global-set-key (kbd "C-c n") 'multi-term-next)
-(global-set-key (kbd "C-c p") 'multi-term-prev)
 
 ;; ddskk
 (global-set-key (kbd "C-x C-j") 'skk-mode)

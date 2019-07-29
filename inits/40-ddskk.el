@@ -5,6 +5,8 @@
 (setq skk-use-azik t)
 (setq skk-azik-keyboard-type 'en)
 
+(setq skk-save-jisyo-instantly t)
+
 (setq skk-show-candidates-always-pop-to-buffer t) ; 変換候補の表示位置
 (setq skk-henkan-show-candidates-rows 2)          ; 候補表示件数
 

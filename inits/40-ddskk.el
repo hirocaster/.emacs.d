@@ -19,7 +19,7 @@
 (setq skk-dcomp-multiple-activate t)
 (setq skk-dcomp-multiple-rows 5)
 
-(setq skk-jisyo "~/Dropbox/skk/skk-jisyo")  ; 個人辞書
+(setq skk-jisyo "~/.skk-jisyo")  ; 個人辞書
 
 (when (eq system-type 'gnu/linux)
   (setq skk-extra-jisyo-file-list

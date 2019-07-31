@@ -1,7 +1,7 @@
 (setq skk-server-host "localhost")
 (setq skk-server-portnum 1178)
 (setq skk-share-private-jisyo t)
-(setq skk-jisyo-code 'utf-8-unix)
+
 (setq skk-use-azik t)
 (setq skk-azik-keyboard-type 'en)
 
@@ -19,13 +19,16 @@
 (setq skk-dcomp-multiple-activate t)
 (setq skk-dcomp-multiple-rows 5)
 
-(setq skk-jisyo "~/.skk-jisyo")  ; 個人辞書
 
-(when (eq system-type 'gnu/linux)
-  (setq skk-extra-jisyo-file-list
-        (list "/usr/share/skk/SKK-JISYO.fullname"
-              "/usr/share/skk/SKK-JISYO.geo"
-              "/usr/share/skk/SKK-JISYO.jinmei"
-              "/usr/share/skk/SKK-JISYO.propernoun"
-              "/usr/share/skk/SKK-JISYO.station"
-              "/usr/share/skk/SKK-JISYO.zipcode")))
+;; dictionary
+(setq skk-jisyo-code 'utf-8)
+(setq skk-large-jisyo "~/skk/SKK-JISYO.L.utf8")
+(setq skk-jisyo "~/skk/skk-jisyo")  ; 個人辞書
+(setq skk-extra-jisyo-file-list
+      (list "~/skk/SKK-JISYO.jinmei.utf8"
+            "~/skk/SKK-JISYO.geo.utf8"
+            "~/skk/SKK-JISYO.propernoun.utf8"
+            "~/skk/SKK-JISYO.station.utf8"
+            "~/skk/SKK-JISYO.edict.utf8"
+            "~/skk/SKK-JISYO.zipcode.utf8"
+            "~/skk/SKK-JISYO.itaiji.utf8"))

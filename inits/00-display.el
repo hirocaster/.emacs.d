@@ -32,7 +32,7 @@
 ;; Mac Font
 (set-face-attribute 'default nil
                     :family "Ricty Diminished"
-                    :height 180)
+                    :height 150)
 
 ;; pos-tip
 (setq pos-tip-foreground-color "red")

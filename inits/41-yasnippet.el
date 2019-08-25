@@ -1,6 +1,6 @@
 (setq yas-snippet-dirs
       '("~/.emacs.d/vendor/yasnippet/snippets"
-        "~/.emacs.d/vendor/yasnippet-snippets"
+        "~/.emacs.d/yasnippet-snippets"
         ))
 (yas-global-mode 1)
 

@@ -29,11 +29,6 @@
 ;; theme
 (load-theme 'moe-dark t)
 
-;; Mac Font
-(set-face-attribute 'default nil
-                    :family "Ricty Diminished"
-                    :height 105)
-
 ;; pos-tip
 (setq pos-tip-foreground-color "red")
 (setq pos-tip-background-color "blue")

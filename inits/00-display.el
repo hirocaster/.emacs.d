@@ -29,6 +29,11 @@
 ;; theme
 (load-theme 'moe-dark t)
 
+;; font
+(set-face-attribute 'default nil
+                    :family "Ricty Diminished"
+                    :height 210)
+
 ;; pos-tip
 (setq pos-tip-foreground-color "red")
 (setq pos-tip-background-color "blue")

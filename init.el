@@ -24,6 +24,8 @@
 (el-get-bundle ac-ispell)
 (el-get-bundle ace-jump-mode)
 (el-get-bundle ag)
+(el-get-bundle ahk-mode
+  :url "https://raw.githubusercontent.com/ralesi/ahk-mode/master/ahk-mode.el")
 (el-get-bundle alchemist)
 (el-get-bundle anzu)
 (el-get-bundle auto-complete)

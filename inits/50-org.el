@@ -9,6 +9,8 @@
 
 (setq org-startup-with-inline-images t)
 
+(turn-off-auto-fill)
+
 ;; Set to the location of your Org files on your local system
 (setq org-directory "~/Dropbox/org")
 

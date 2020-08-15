@@ -9,8 +9,6 @@
 
 (setq org-startup-with-inline-images t)
 
-(turn-off-auto-fill)
-
 ;; Set to the location of your Org files on your local system
 (setq org-directory "~/Dropbox/org")
 
@@ -23,6 +21,7 @@
 (setq org-agenda-files (list org-directory))
 
 (add-hook 'org-mode-hook 'turn-on-font-lock)
+(add-hook 'org-mode-hook 'turn-off-auto-fill)
 
 (setq org-src-fontify-natively t)
 

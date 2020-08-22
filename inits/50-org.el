@@ -5,7 +5,7 @@
 (setq org-startup-indented t)
 (setq org-indent-mode-turns-on-hiding-stars nil)
 (setq org-indent-indentation-per-level 4)
-(setq org-startup-folded 'content)
+(setq org-startup-folded nil)
 
 (setq org-startup-with-inline-images t)
 

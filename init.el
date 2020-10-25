@@ -12,6 +12,9 @@
 
 (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
 
+(el-get-bundle tarao/el-get-lock)
+(el-get-lock)
+
 (el-get-bundle moe-theme)
 
 (el-get-bundle bind-key)

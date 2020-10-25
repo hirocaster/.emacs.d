@@ -17,7 +17,6 @@
         (web-server :checksum "9edf4b5e3c6cea1738acf08241919e00437ec530")
         (json-mode :checksum "0e819e519ae17a2686e0881c4ca51fa873fa9b83")
         (json-snatcher :checksum "b28d1c0670636da6db508d03872d96ffddbc10f2")
-        (groovy-mode :checksum "d259907e71469105541a79ccde6827b0cea230c8")
         (go-mode :checksum "d17d21060b16a77f9ee28ff453e674225acbf1b1")
         (feature-mode :checksum "8e1464113b489b54067294cd988ff6a11a423fdb")
         (enh-ruby-mode :checksum "f0bffbe4b32bb59680f897731169442cce5a1eec")

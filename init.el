@@ -95,8 +95,6 @@
 (el-get-bundle enh-ruby-mode)
 (el-get-bundle feature-mode)
 (el-get-bundle go-mode)
-(el-get-bundle groovy-mode
-  :url "https://raw.githubusercontent.com/Groovy-Emacs-Modes/groovy-emacs-modes/master/groovy-mode.el")
 (el-get-bundle js2-mode)
 (el-get-bundle json-mode)
 (el-get-bundle markdown-mode)
@@ -118,3 +116,15 @@
 (init-loader-load "~/.emacs.d/inits")
 (init-loader-load "~/.emacs.d/secrets")
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages '(wgrep-ag robe ripgrep ox-gfm org bind-key ac-ispell)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

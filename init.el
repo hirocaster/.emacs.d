@@ -74,7 +74,6 @@
 (el-get-bundle string-inflection)
 (el-get-bundle tide)
 (el-get-bundle undo-tree)
-(el-get-bundle w3m)
 (el-get-bundle wgrep)
 (el-get-bundle wgrep-ag)
 (el-get-bundle yasnippet)

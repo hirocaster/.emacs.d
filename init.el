@@ -57,7 +57,7 @@
 (el-get-bundle magit)
 (el-get-bundle multi-term)
 (el-get-bundle multiple-cursors)
-(el-get-bundle org-mode)
+(el-get-bundle elpa:org)
 (el-get-bundle org-seek)
 (el-get-bundle ox-gfm)
 (el-get-bundle paredit)

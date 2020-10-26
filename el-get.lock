@@ -1,5 +1,7 @@
 (setq el-get-lock-package-versions
-      '((init-loader :checksum "44829fa70f5c4cba03d36db5fa2c969001325b91")
+      '((magit-popup :checksum "d8585fa39f88956963d877b921322530257ba9f5")
+        (magit :checksum "791901b2f1d26fa0a383147fe77948a9abc753da")
+        (init-loader :checksum "44829fa70f5c4cba03d36db5fa2c969001325b91")
         (yaml-mode :checksum "68fecb5f0dec712a10c8655df6881392a4613617")
         (web-mode :checksum "b4b0a857088d12cf254f6a2105c58039f29a0d04")
         (terraform-mode :checksum "2967e7bdc05d15617e121052f6e43c61439b9070")
@@ -42,7 +44,6 @@
         (paredit :checksum "8330a41e8188fe18d3fa805bb9aa529f015318e8")
         (multiple-cursors :checksum "83abb0533a9d9635bc86d6d52a4e7641b0eaaf63")
         (multi-term :checksum "e193ee0a3558a42e31c6706940902a8743852fdc")
-        (magit :checksum "60f7527ad7f3a35d55d52a5ab1ee62897989e274")
         (transient :checksum "990eb0a292d622b80b52460d445aa58232ef2645")
         (with-editor :checksum "a339d6590096829a274c1901e407873e1fc1016e")
         (lispxmp :checksum "860a449a9e072001e142b9c331fe3c7f693e936a")

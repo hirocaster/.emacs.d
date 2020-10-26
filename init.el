@@ -57,7 +57,11 @@
 (el-get-bundle js2-mode)
 (el-get-bundle json-reformat)
 (el-get-bundle lispxmp)
+
 (el-get-bundle magit)
+(el-get-bundle magit-popup)
+(el-get-bundle ghub)
+
 (el-get-bundle multi-term)
 (el-get-bundle multiple-cursors)
 (el-get-bundle elpa:org)

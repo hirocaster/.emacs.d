@@ -1,3 +1,9 @@
+(when (require 'skk nil t)
+  (autoload 'skk-mode "skk" nil t)
+  (autoload 'skk-auto-fill-mode "skk" nil t))
+
+(setq default-input-method "japanese-skk")
+
 (setq skk-server-host "localhost")
 (setq skk-server-portnum 1178)
 (setq skk-share-private-jisyo t)

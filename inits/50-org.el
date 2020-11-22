@@ -32,3 +32,13 @@
          "* %?\nEntered on %U\n  %i\n  %a")))
 
 (setq org-log-done 'time)
+
+(defun insert-zero-width-space ()
+  (interactive)
+  (insert-char #x200b))
+
+(global-set-key (kbd "C-c C-x *") 'insert-zero-width-space)
+
+(setq org-emphasis-regexp-components
+      '("   ('\"{\x200B" "-     .,:!?;'\")}\\[\x200B" "
+,\"'" "." 1))

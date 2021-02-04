@@ -33,12 +33,3 @@
 (setq pos-tip-foreground-color "red")
 (setq pos-tip-background-color "blue")
 
-;; frame size and positon at startup
-(setq initial-frame-alist
-      (append (list
-	       '(width . 120)
-	       '(height . 40)
-	       '(top . 100)
-	       '(left . 150)
-	       )
-	      initial-frame-alist))

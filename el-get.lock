@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((el-get-lock :checksum "df8cfe55441695865a64b97946750b6413a40425")
+      '((review-mode :checksum "e6a2a10d4544cd2d5893e44dc534681af8db4fea")
+        (el-get-lock :checksum "df8cfe55441695865a64b97946750b6413a40425")
         (el-get :checksum "6138ce5b0a9df779e33ef42eadc4c15a5cf65f39")
         (ghub :checksum "f6fc7d8e0186b2f1830576f8a7803f0d29b6053d")
         (treepy :checksum "3ac940e97f3d03e48ca9d7fcd74916a9b01c72f3")

@@ -74,6 +74,8 @@
 (el-get-bundle projectile)
 (el-get-bundle rbenv)
 (el-get-bundle recentf-ext)
+(el-get-bundle review-mode
+  :url "https://raw.githubusercontent.com/kmuto/review-el/master/review-mode.el")
 (el-get-bundle ripgrep)
 (el-get-bundle robe)
 (el-get-bundle smartparens)

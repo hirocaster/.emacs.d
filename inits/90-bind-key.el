@@ -48,6 +48,13 @@
 (global-set-key (kbd "C-x C-g") 'git-gutter:toggle)
 (global-set-key (kbd "C-x v =") 'git-gutter:popup-diff)
 
+;; org-roam
+(bind-key "C-c n l" 'org-roam)
+(bind-key "C-c n f" 'org-roam-find-file)
+(bind-key "C-c n g" 'org-roam-graph)
+(bind-key "C-c n i" 'org-roam-insert)
+(bind-key "C-c n I" 'org-roam-insert-immediate)
+
 ;; kill-word
 (bind-key "C-w" 'kill-region-or-backward-kill-word)
 

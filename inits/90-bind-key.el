@@ -48,9 +48,6 @@
 (global-set-key (kbd "C-x C-g") 'git-gutter:toggle)
 (global-set-key (kbd "C-x v =") 'git-gutter:popup-diff)
 
-;; howm
-(global-set-key (kbd "C-c , ,") 'howm-menu)
-
 ;; kill-word
 (bind-key "C-w" 'kill-region-or-backward-kill-word)
 

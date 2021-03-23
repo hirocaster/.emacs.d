@@ -82,7 +82,6 @@
 (el-get-bundle smartrep)
 (el-get-bundle string-inflection)
 (el-get-bundle tide)
-(el-get-bundle undo-tree)
 (el-get-bundle wgrep)
 (el-get-bundle wgrep-ag)
 (el-get-bundle yasnippet)
@@ -127,7 +126,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages '(wgrep-ag robe ripgrep ox-gfm org bind-key ac-ispell)))
+ '(package-selected-packages
+   '(org-roam wgrep-ag robe ripgrep ox-gfm org bind-key ac-ispell)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

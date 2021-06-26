@@ -6,6 +6,7 @@
 (setq org-indent-mode-turns-on-hiding-stars nil)
 (setq org-indent-indentation-per-level 4)
 (setq org-startup-folded nil)
+(setq org-startup-truncated nil)
 
 (setq org-startup-with-inline-images t)
 
@@ -21,7 +22,6 @@
 (setq org-agenda-files (list org-directory))
 
 (add-hook 'org-mode-hook 'turn-on-font-lock)
-(add-hook 'org-mode-hook 'turn-off-auto-fill)
 
 (setq org-src-fontify-natively t)
 

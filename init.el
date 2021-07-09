@@ -95,10 +95,10 @@
 (el-get-bundle direnv
   :url "https://raw.githubusercontent.com/hirocaster/.emacs.d/master/vendor/direnv/direnv.el")
 
-(el-get-bundle w-vi/apib-mode)
 (el-get-bundle coffee-mode)
 (el-get-bundle dockerfile-mode)
 (el-get-bundle elixir-mode)
+(el-get-bundle elpa:processing-mode)
 (el-get-bundle enh-ruby-mode)
 (el-get-bundle feature-mode)
 (el-get-bundle go-mode)
@@ -116,6 +116,7 @@
 (el-get-bundle terraform-mode)
 (el-get-bundle tide)
 (el-get-bundle typescript-mode)
+(el-get-bundle w-vi/apib-mode)
 (el-get-bundle web-mode)
 (el-get-bundle yaml-mode)
 
@@ -129,7 +130,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(org-roam wgrep-ag robe ripgrep ox-gfm org bind-key ac-ispell)))
+   '(processing-mode org-roam wgrep-ag robe ripgrep ox-gfm org bind-key ac-ispell)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

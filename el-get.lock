@@ -14,7 +14,7 @@
         (org-roam :checksum "8ad57b121831eda8d226faa14ff2ba7ab652849c")
         (review-mode :checksum "e6a2a10d4544cd2d5893e44dc534681af8db4fea")
         (el-get-lock :checksum "df8cfe55441695865a64b97946750b6413a40425")
-        (el-get :checksum "84dd1837f9ac80a329ab0c2de6859777f445f8ff")
+        (el-get :checksum "52df810e538243d07f2a317ad36e351b440a75e0")
         (ghub :checksum "f6fc7d8e0186b2f1830576f8a7803f0d29b6053d")
         (treepy :checksum "3ac940e97f3d03e48ca9d7fcd74916a9b01c72f3")
         (magit-popup :checksum "d8585fa39f88956963d877b921322530257ba9f5")

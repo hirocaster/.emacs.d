@@ -65,6 +65,7 @@
 (el-get-bundle multi-term)
 (el-get-bundle multiple-cursors)
 (el-get-bundle elpa:org)
+(el-get-bundle org-ref)
 (el-get-bundle org-roam/org-roam)
 (el-get-bundle org-seek)
 (el-get-bundle ox-gfm)

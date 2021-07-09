@@ -7,7 +7,7 @@
 
 (with-eval-after-load 'ox-latex
   (add-to-list 'org-latex-classes
-               '("jsarticle" "\\documentclass{jsarticle}"
+               '("jsarticle" "\\documentclass[14pt]{jsarticle}"
                  ("\\section{%s}" . "\\section*{%s}")
                  ("\\subsection{%s}" . "\\subsection*{%s}")
                  ("\\subsubsection{%s}" . "\\subsubsection*{%s}")

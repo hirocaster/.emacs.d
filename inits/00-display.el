@@ -24,7 +24,8 @@
 (setq c-auto-newline t)
 (setq require-final-newline t)
 (setq next-line-add-newlines nil)
-
+(setq truncate-partial-width-windows t)
+(define-key global-map (kbd "C-c l") 'toggle-truncate-lines)
 ;; theme
 (load-theme 'moe-dark t)
 

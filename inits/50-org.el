@@ -1,8 +1,8 @@
 (setq org-use-speed-commands t)
 
 (add-to-list 'ac-modes 'org-mode)
-
 (setq org-startup-indented t)
+(setq org-startup-truncated nil)
 (setq org-indent-mode-turns-on-hiding-stars nil)
 (setq org-indent-indentation-per-level 4)
 (setq org-startup-folded nil)

@@ -50,6 +50,6 @@
         (""     "amssymb"   t)
         (""     "capt-of"   nil)
         (""     "hyperref"  nil)
-        ("margin=2cm,nohead, nofoot"     "geometry")))
+        ("margin=15mm, nohead, nofoot" "geometry")))
 
 (setq org-latex-default-class "jsarticle")

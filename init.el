@@ -29,6 +29,9 @@
 
 (el-get-bundle anzu)
 (el-get-bundle company-mode/company-mode :branch "0.9.13")
+
+(el-get-bundle magnars/expand-region.el :branch "0.11.0")
+
 (el-get-bundle elscreen)
 (el-get-bundle magit)
 

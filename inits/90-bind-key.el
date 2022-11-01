@@ -6,3 +6,5 @@
 (bind-key "C-x C-b" 'consult-buffer)
 (bind-key "C-x C-r" 'consult-recent-file)
 (bind-key "C-s" 'consult-line)
+
+(bind-key "C-=" 'er/expand-region)

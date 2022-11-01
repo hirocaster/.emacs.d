@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((affe :checksum "0982fbfee5877b2492568cce2d746b263f198db3")
+      '((consult-ghq :checksum "c8619d66bd8f8728e43ed15096078b89eb4d2083")
+        (affe :checksum "0982fbfee5877b2492568cce2d746b263f198db3")
         (marginalia :checksum "cc7a086cd7816ad41ff004c61c41bdd26ec3ea0b")
         (consult :checksum "d5b328637255ad6e7da4190ca15f3da040bbb606")
         (orderless :checksum "92008e762b30cb445a2227e458cbb9a5e1b1d4e8")

@@ -1,5 +1,6 @@
 (bind-key "C-h" 'delete-backward-char)
 (bind-key "C-c l" 'toggle-truncate-lines)
+(bind-key "M-h" 'backward-kill-word)
 
 ;; consult
 (bind-key "C-x C-b" 'consult-buffer)

@@ -24,6 +24,8 @@
 (el-get-bundle minad/affe :branch "0.4")
 (el-get-bundle tomoya/consult-ghq :branch "0.0.4")
 
+(el-get-bundle anzu)
+
 (el-get-bundle magit)
 
 (el-get-bundle ddskk)

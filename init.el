@@ -28,7 +28,7 @@
 (el-get-bundle tomoya/consult-ghq :branch "0.0.4")
 
 (el-get-bundle anzu)
-
+(el-get-bundle company-mode/company-mode :branch "0.9.13")
 (el-get-bundle elscreen)
 (el-get-bundle magit)
 

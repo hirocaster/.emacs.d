@@ -26,6 +26,8 @@
 
 (el-get-bundle magit)
 
+(el-get-bundle ddskk)
+
 (el-get-bundle bind-key
   :url "https://raw.githubusercontent.com/jwiegley/use-package/master/bind-key.el")
 

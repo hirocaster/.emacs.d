@@ -1,5 +1,9 @@
 (setq el-get-lock-package-versions
-      '((bind-key :checksum "83672ad1c06083eb9045ed8c77f915063a0c4a59")
+      '((magit :checksum "2653432bb51350a145f7234f2c9cb89746b26537")
+        (dash :checksum "3df46d7d9fe74f52a661565888e4d31fd760f0df")
+        (transient :checksum "ad953cc3c5b8a066d3da11a8527c035744f1385f")
+        (with-editor :checksum "4ca225bf1c54d6dab2ba7e734f594419c7769e36")
+        (bind-key :checksum "83672ad1c06083eb9045ed8c77f915063a0c4a59")
         (moe-theme :checksum "786c5f9aefa38b36f6bee0aa56aaa8da00fa0924")
         (init-loader :checksum "ecab5a66b40227c4173992adfa5cfeae09f1657e")))
 (setq el-get-lock-locked-packages 'nil)

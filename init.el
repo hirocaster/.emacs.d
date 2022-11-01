@@ -17,6 +17,8 @@
 
 (el-get-bundle moe-theme)
 
+(el-get-bundle magit)
+
 (el-get-bundle bind-key
   :url "https://raw.githubusercontent.com/jwiegley/use-package/master/bind-key.el")
 

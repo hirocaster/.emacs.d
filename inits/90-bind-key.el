@@ -4,4 +4,4 @@
 ;; consult
 (bind-key "C-x C-b" 'consult-buffer)
 (bind-key "C-x C-r" 'consult-recent-file)
-(bind-key "M-g M-g" 'consult-line)
+(bind-key "C-s" 'consult-line)

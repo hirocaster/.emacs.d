@@ -32,6 +32,8 @@
 (el-get-bundle elscreen)
 (el-get-bundle magit)
 
+(el-get-bundle elpa:org)
+
 (el-get-bundle ddskk)
 
 (el-get-bundle bind-key

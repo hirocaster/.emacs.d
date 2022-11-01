@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((magit :checksum "2653432bb51350a145f7234f2c9cb89746b26537")
+      '((vertico :checksum "31060942d65ccd3c1b488d8db497af5eda9ac7fc")
+        (magit :checksum "2653432bb51350a145f7234f2c9cb89746b26537")
         (dash :checksum "3df46d7d9fe74f52a661565888e4d31fd760f0df")
         (transient :checksum "ad953cc3c5b8a066d3da11a8527c035744f1385f")
         (with-editor :checksum "4ca225bf1c54d6dab2ba7e734f594419c7769e36")

@@ -17,6 +17,8 @@
 
 (el-get-bundle moe-theme)
 
+(el-get-bundle minad/vertico :branch "0.28")
+
 (el-get-bundle magit)
 
 (el-get-bundle bind-key

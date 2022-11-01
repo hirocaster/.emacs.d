@@ -20,6 +20,7 @@
 (el-get-bundle minad/vertico :branch "0.28")
 (el-get-bundle oantolin/orderless :branch "0.7")
 (el-get-bundle minad/consult :branch "0.20")
+(el-get-bundle minad/marginalia :branch "0.15")
 
 (el-get-bundle magit)
 

@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((anzu :checksum "5abb37455ea44fa401d5f4c1bdc58adb2448db67")
+      '((elscreen :checksum "c47da4023b8fb50bf64c3a33bc4b9d8fbaf73381")
+        (anzu :checksum "5abb37455ea44fa401d5f4c1bdc58adb2448db67")
         (ddskk :checksum "c24a624884a3cfb0c28d6d5b9eb19e01387f0917")
         (consult-ghq :checksum "c8619d66bd8f8728e43ed15096078b89eb4d2083")
         (affe :checksum "0982fbfee5877b2492568cce2d746b263f198db3")

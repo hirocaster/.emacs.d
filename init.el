@@ -29,6 +29,7 @@
 
 (el-get-bundle anzu)
 
+(el-get-bundle elscreen)
 (el-get-bundle magit)
 
 (el-get-bundle ddskk)

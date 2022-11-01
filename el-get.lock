@@ -1,5 +1,6 @@
 (setq el-get-lock-package-versions
-      '((moe-theme :checksum "786c5f9aefa38b36f6bee0aa56aaa8da00fa0924")
+      '((bind-key :checksum "83672ad1c06083eb9045ed8c77f915063a0c4a59")
+        (moe-theme :checksum "786c5f9aefa38b36f6bee0aa56aaa8da00fa0924")
         (init-loader :checksum "ecab5a66b40227c4173992adfa5cfeae09f1657e")))
 (setq el-get-lock-locked-packages 'nil)
 (setq el-get-lock-unlocked-packages 'nil)

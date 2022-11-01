@@ -17,5 +17,8 @@
 
 (el-get-bundle moe-theme)
 
+(el-get-bundle bind-key
+  :url "https://raw.githubusercontent.com/jwiegley/use-package/master/bind-key.el")
+
 (el-get-bundle init-loader)
 (init-loader-load (locate-user-emacs-file "inits"))

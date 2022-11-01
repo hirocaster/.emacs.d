@@ -14,3 +14,6 @@
 
 (el-get-bundle tarao/el-get-lock)
 (el-get-lock)
+
+(el-get-bundle init-loader)
+(init-loader-load (locate-user-emacs-file "inits"))

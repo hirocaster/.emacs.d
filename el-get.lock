@@ -1,5 +1,8 @@
 (setq el-get-lock-package-versions
-      '((expand-region\.el :checksum "0bc14fc7fbbcca5da4fdd9695cfd7cbd36eb3b96")
+      '((flycheck :checksum "3b5b4248074f016922c2674789d4a242528cf4c7")
+        (pkg-info :checksum "76ba7415480687d05a4353b27fea2ae02b8d9d61")
+        (epl :checksum "78ab7a85c08222cd15582a298a364774e3282ce6")
+        (expand-region\.el :checksum "0bc14fc7fbbcca5da4fdd9695cfd7cbd36eb3b96")
         (company-mode :checksum "656ad10670512e135a0a5881f127bb7a789ef8ca")
         (elscreen :checksum "c47da4023b8fb50bf64c3a33bc4b9d8fbaf73381")
         (anzu :checksum "5abb37455ea44fa401d5f4c1bdc58adb2448db67")

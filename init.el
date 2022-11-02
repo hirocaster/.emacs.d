@@ -37,6 +37,8 @@
 
 (el-get-bundle elpa:org)
 
+(el-get-bundle flycheck/flycheck :branch "32")
+
 (el-get-bundle ddskk)
 
 (el-get-bundle bind-key

@@ -33,7 +33,7 @@
 (el-get-bundle magnars/expand-region.el :branch "0.11.0")
 
 (el-get-bundle elscreen)
-(el-get-bundle magit)
+(el-get-bundle magit :branch "v3.3.0")
 
 (el-get-bundle elpa:org)
 

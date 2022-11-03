@@ -1,9 +1,6 @@
 (when load-file-name
   (setq user-emacs-directory (file-name-directory load-file-name)))
 
-(setq package-user-dir (locate-user-emacs-file "elpa"))
-(package-initialize)
-
 (add-to-list 'load-path (locate-user-emacs-file "el-get/el-get"))
 
 (unless (require 'el-get nil 'noerror)
@@ -46,3 +43,6 @@
 
 (el-get-bundle init-loader)
 (init-loader-load (locate-user-emacs-file "inits"))
+
+(setq package-user-dir (locate-user-emacs-file "elpa"))
+(package-initialize)

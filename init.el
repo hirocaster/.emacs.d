@@ -24,6 +24,10 @@
 (el-get-bundle minad/affe :branch "0.4")
 (el-get-bundle tomoya/consult-ghq :branch "0.0.4")
 
+;; rust
+(el-get-bundle project)
+(el-get-bundle brotzeit/rustic :branch "3.4")
+
 (el-get-bundle anzu)
 (el-get-bundle company-mode/company-mode :branch "0.9.13")
 

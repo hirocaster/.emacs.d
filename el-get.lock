@@ -1,5 +1,12 @@
 (setq el-get-lock-package-versions
-      '((flycheck :checksum "3b5b4248074f016922c2674789d4a242528cf4c7")
+      '((rustic :checksum "53cacf5039f1d88cdd5cad98d1e9e0ad92da2615")
+        (rust-mode :checksum "b4537b6f5fa65626c1bab944681b35769cab9b5c")
+        (f :checksum "d50dca48929575642912bb5bbb2585709ba38f82")
+        (markdown-mode :checksum "c338cdff80012893e64ba62a199281f430db7021")
+        (s :checksum "e957dcb0677da18b2bb60ad867db5df5c35b5616")
+        (spinner :checksum "d4647ae87fb0cd24bc9081a3d287c860ff061c21")
+        (xterm-color :checksum "1a4012854c69a5cdaeb5a73d2ad705011892fca3")
+        (flycheck :checksum "3b5b4248074f016922c2674789d4a242528cf4c7")
         (pkg-info :checksum "76ba7415480687d05a4353b27fea2ae02b8d9d61")
         (epl :checksum "78ab7a85c08222cd15582a298a364774e3282ce6")
         (expand-region\.el :checksum "0bc14fc7fbbcca5da4fdd9695cfd7cbd36eb3b96")

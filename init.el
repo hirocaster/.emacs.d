@@ -24,6 +24,10 @@
 (el-get-bundle minad/affe :branch "0.4")
 (el-get-bundle tomoya/consult-ghq :branch "0.0.4")
 
+;; lsp
+(el-get-bundle lsp-mode)
+(el-get-bundle lsp-ui)
+
 ;; rust
 (el-get-bundle project)
 (el-get-bundle brotzeit/rustic :branch "3.4")

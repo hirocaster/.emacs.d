@@ -1,5 +1,7 @@
 (setq el-get-lock-package-versions
-      '((rustic :checksum "53cacf5039f1d88cdd5cad98d1e9e0ad92da2615")
+      '((lsp-ui :checksum "3cd7cc61273341023b863dcf45906ac9142fd1aa")
+        (lsp-mode :checksum "f5d521d56cfef54d0f102680e956a856347d2c96")
+        (rustic :checksum "53cacf5039f1d88cdd5cad98d1e9e0ad92da2615")
         (rust-mode :checksum "b4537b6f5fa65626c1bab944681b35769cab9b5c")
         (f :checksum "d50dca48929575642912bb5bbb2585709ba38f82")
         (markdown-mode :checksum "c338cdff80012893e64ba62a199281f430db7021")

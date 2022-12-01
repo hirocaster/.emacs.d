@@ -12,6 +12,9 @@
 
 (add-to-list 'el-get-recipe-path (locate-user-emacs-file "el-get-user/recipes"))
 
+(setq package-user-dir (locate-user-emacs-file "elpa"))
+(setq package-gnupghome-dir (locate-user-emacs-file "elpa/gnupg"))
+
 (el-get-bundle tarao/el-get-lock)
 (el-get-lock)
 
@@ -52,5 +55,5 @@
 (el-get-bundle init-loader)
 (init-loader-load (locate-user-emacs-file "inits"))
 
-(setq package-user-dir (locate-user-emacs-file "elpa"))
 (package-initialize)
+(el-get 'sync)

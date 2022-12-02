@@ -35,6 +35,9 @@
 (el-get-bundle project)
 (el-get-bundle brotzeit/rustic :branch "3.4")
 
+;; docker
+(el-get-bundle spotify/dockerfile-mode)
+
 (el-get-bundle anzu)
 (el-get-bundle company-mode/company-mode :branch "0.9.13")
 

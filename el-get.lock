@@ -1,5 +1,7 @@
 (setq el-get-lock-package-versions
-      '((hydra :checksum "317e1de33086637579a7aeb60f77ed0405bf359b")
+      '((yaml-mode :checksum "fc5e1c58f94472944c4aa838f00f6adcac6fa992")
+        (docker-compose-mode :checksum "abaa4f3aeb5c62d7d16e186dd7d77f4e846e126a")
+        (hydra :checksum "317e1de33086637579a7aeb60f77ed0405bf359b")
         (ht :checksum "e83fdb8bc0a3cc8cd2687a947e2610b20b68b7d3")
         (bind-key :checksum "e7b248ec05becb11df7cfae1e42b8acedc45e217")
         (lsp-ui :checksum "3cd7cc61273341023b863dcf45906ac9142fd1aa")

@@ -1,3 +1,5 @@
+(require 'skk-autoloads)
+
 (setq default-input-method "japanese-skk")
 
 (setq skk-server-host "localhost")

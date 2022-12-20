@@ -1,5 +1,7 @@
 (setq el-get-lock-package-versions
-      '((yaml-mode :checksum "fc5e1c58f94472944c4aa838f00f6adcac6fa992")
+      '((consult :checksum "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8")
+        (affe :checksum "ff75fbe6f6b280815c33ed2d6694bf0ee74dd1fe")
+        (yaml-mode :checksum "fc5e1c58f94472944c4aa838f00f6adcac6fa992")
         (docker-compose-mode :checksum "abaa4f3aeb5c62d7d16e186dd7d77f4e846e126a")
         (hydra :checksum "317e1de33086637579a7aeb60f77ed0405bf359b")
         (ht :checksum "e83fdb8bc0a3cc8cd2687a947e2610b20b68b7d3")
@@ -22,9 +24,7 @@
         (anzu :checksum "5abb37455ea44fa401d5f4c1bdc58adb2448db67")
         (ddskk :checksum "c24a624884a3cfb0c28d6d5b9eb19e01387f0917")
         (consult-ghq :checksum "c8619d66bd8f8728e43ed15096078b89eb4d2083")
-        (affe :checksum "0982fbfee5877b2492568cce2d746b263f198db3")
         (marginalia :checksum "cc7a086cd7816ad41ff004c61c41bdd26ec3ea0b")
-        (consult :checksum "d5b328637255ad6e7da4190ca15f3da040bbb606")
         (orderless :checksum "92008e762b30cb445a2227e458cbb9a5e1b1d4e8")
         (vertico :checksum "31060942d65ccd3c1b488d8db497af5eda9ac7fc")
         (magit :checksum "2653432bb51350a145f7234f2c9cb89746b26537")

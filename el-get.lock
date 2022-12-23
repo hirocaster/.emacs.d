@@ -1,5 +1,7 @@
 (setq el-get-lock-package-versions
-      '((consult :checksum "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8")
+      '((emacsql :checksum "c1a44076c0e44d5730b67b13c0e741f66f52fc85")
+        (org-roam :checksum "69116a4da49448e79ac03aedceeecd9f5ae9b2d4")
+        (consult :checksum "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8")
         (affe :checksum "ff75fbe6f6b280815c33ed2d6694bf0ee74dd1fe")
         (yaml-mode :checksum "fc5e1c58f94472944c4aa838f00f6adcac6fa992")
         (docker-compose-mode :checksum "abaa4f3aeb5c62d7d16e186dd7d77f4e846e126a")

@@ -52,6 +52,10 @@
 
 (el-get-bundle flycheck/flycheck :branch "32")
 
+;; org-roam
+(el-get-bundle magit/emacsql :branch "3.1.1")
+(el-get-bundle org-roam/org-roam :branch "v2.2.2")
+
 (el-get-bundle ddskk)
 
 (el-get-bundle bind-key

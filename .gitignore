@@ -7,3 +7,5 @@ elpa
 backups
 bookmarks
 .lsp-session-*
+.org-id-locations
+org-roam.db

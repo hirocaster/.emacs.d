@@ -1,5 +1,10 @@
 (setq el-get-lock-package-versions
-      '((emacsql :checksum "c1a44076c0e44d5730b67b13c0e741f66f52fc85")
+      '((org-roam-macs :checksum "3b52ad3332a84d742c5dd08483f2716385e446c5")
+        (org-roam-dailies :checksum "290ea28b06184c855de4cbe13929199349db3b78")
+        (org-roam-ui :checksum "5ac74960231db0bf7783c2ba7a19a60f582e91ab")
+        (websocket :checksum "8604982b1207fafdef7ecdc4ba54541c1ea87212")
+        (simple-httpd :checksum "22ce66ea43e0eadb9ec1d691a35d9695fc29cee6")
+        (emacsql :checksum "c1a44076c0e44d5730b67b13c0e741f66f52fc85")
         (org-roam :checksum "69116a4da49448e79ac03aedceeecd9f5ae9b2d4")
         (consult :checksum "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8")
         (affe :checksum "ff75fbe6f6b280815c33ed2d6694bf0ee74dd1fe")

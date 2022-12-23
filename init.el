@@ -56,6 +56,15 @@
 (el-get-bundle magit/emacsql :branch "3.1.1")
 (el-get-bundle org-roam/org-roam :branch "v2.2.2")
 
+;; org-roam-ui
+(el-get-bundle websocket)
+(el-get-bundle simple-httpd)
+(el-get-bundle org-roam-macs ;; bug: depends from org-roam-ui
+  :url "https://raw.githubusercontent.com/org-roam/org-roam-v1/master/org-roam-macs.el")
+(el-get-bundle org-roam-dailies ;; bug: depends from org-roam-ui
+  :url "https://raw.githubusercontent.com/org-roam/org-roam-v1/master/org-roam-dailies.el") ;; bug
+(el-get-bundle org-roam/org-roam-ui)
+
 (el-get-bundle ddskk)
 
 (el-get-bundle bind-key

@@ -46,7 +46,14 @@
 (el-get-bundle magnars/expand-region.el :branch "0.11.0")
 
 (el-get-bundle elscreen)
-(el-get-bundle magit :branch "v3.3.0")
+
+(el-get-bundle magit)
+;; As a short-term solution,
+;; https://github.com/magit/magit/issues/5011
+(defun seq-keep (function sequence)
+  "Apply FUNCTION to SEQUENCE and return the list of all the non-nil results."
+  (delq nil (seq-map function sequence)))
+
 
 (el-get-bundle elpa:org)
 

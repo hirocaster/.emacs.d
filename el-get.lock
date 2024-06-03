@@ -1,5 +1,8 @@
 (setq el-get-lock-package-versions
-      '((org-roam-macs :checksum "3b52ad3332a84d742c5dd08483f2716385e446c5")
+      '((rg\.el :checksum "9a6bcf7180108a58ed4612aa4e55af13410ac9d0")
+        (Emacs-wgrep :checksum "712cfff5484d64171bd9a58c5431eeba4ac123fa")
+        (php-mode :checksum "c601f75fb953de1c35929ac5fea5b992388c2900")
+        (org-roam-macs :checksum "3b52ad3332a84d742c5dd08483f2716385e446c5")
         (org-roam-dailies :checksum "290ea28b06184c855de4cbe13929199349db3b78")
         (org-roam-ui :checksum "5ac74960231db0bf7783c2ba7a19a60f582e91ab")
         (websocket :checksum "8604982b1207fafdef7ecdc4ba54541c1ea87212")

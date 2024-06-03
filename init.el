@@ -27,6 +27,10 @@
 (el-get-bundle minad/affe :branch "0.5")
 (el-get-bundle tomoya/consult-ghq :branch "0.0.4")
 
+;; rg
+(el-get-bundle mhayashi1120/Emacs-wgrep :branch "2.3.4")
+(el-get-bundle dajva/rg.el :branch "2.3.0")
+
 ;; lsp
 (el-get-bundle lsp-mode)
 (el-get-bundle lsp-ui)
@@ -34,6 +38,9 @@
 ;; rust
 (el-get-bundle project)
 (el-get-bundle brotzeit/rustic :branch "3.4")
+
+;; PHP
+(el-get-bundle emacs-php/php-mode :branch "v1.24.3" :load-path "./lisp")
 
 ;; docker
 (el-get-bundle spotify/dockerfile-mode)

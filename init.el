@@ -20,6 +20,8 @@
 
 (el-get-bundle moe-theme)
 
+(el-get-bundle wolray/symbol-overlay :branch "4.2")
+
 (el-get-bundle minad/vertico :branch "0.28")
 (el-get-bundle oantolin/orderless :branch "0.7")
 (el-get-bundle minad/consult :branch "0.29")

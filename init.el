@@ -28,14 +28,33 @@
 (el-get-bundle minad/marginalia :branch "0.15")
 (el-get-bundle minad/affe :branch "0.5")
 (el-get-bundle tomoya/consult-ghq :branch "0.0.4")
+(el-get-bundle rmuslimov/browse-at-remote :branch "0.14.0")
 
 ;; rg
 (el-get-bundle mhayashi1120/Emacs-wgrep :branch "2.3.4")
 (el-get-bundle dajva/rg.el :branch "2.3.0")
 
+;; copilot
+(el-get-bundle editorconfig)
+(el-get-bundle jsonrpc)
+(el-get-bundle copilot
+  :type github
+  :pkgname "copilot-emacs/copilot.el"
+  :branch "main"
+  :depends (s dash editorconfig jsonrpc)
+  :description "An Emacs plugin for GitHub Copilot."
+  :post-init (progn
+               (add-hook 'prog-mode-hook 'copilot-mode)
+               (with-eval-after-load 'copilot
+                 (define-key copilot-completion-map (kbd "<tab>") 'copilot-accept-completion)
+                 (define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion))))
+
 ;; lsp
 (el-get-bundle lsp-mode)
 (el-get-bundle lsp-ui)
+
+;; Nix
+(el-get-bundle NixOS/nix-mode :branch "v1.5.0")
 
 ;; rust
 (el-get-bundle project)
